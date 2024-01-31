@@ -1,0 +1,7 @@
+[31mCMake Error at CMakeLists.txt:13:
+  Parse error.  Expected "(", got identifier with text "target_dependencies".
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/barakooda/ros2_ws/build/my_cpp_pkg/CMakeFiles/CMakeOutput.log".
+gmake: *** [Makefile:226: cmake_check_build_system] Error 1

@@ -1,0 +1,19 @@
+[0.481s] Invoking command in '/home/barakooda/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/barakooda/ros2_ws/build/my_py_pkg/prefix_override:/home/barakooda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/barakooda/ros2_ws/build/my_py_pkg/build --no-deps install_data
+[0.634s] running develop
+[0.722s] running egg_info
+[0.723s] writing my_py_pkg.egg-info/PKG-INFO
+[0.723s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[0.723s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[0.723s] writing requirements to my_py_pkg.egg-info/requires.txt
+[0.723s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[0.724s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.725s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.726s] running build_ext
+[0.726s] Creating /home/barakooda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[0.727s] Installing py_node script to /home/barakooda/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.727s] Installing robot_news_station script to /home/barakooda/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.727s] 
+[0.727s] Installed /home/barakooda/ros2_ws/build/my_py_pkg
+[0.727s] running install_data
+[0.727s] copying package.xml -> /home/barakooda/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[0.745s] Invoked command in '/home/barakooda/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/barakooda/ros2_ws/build/my_py_pkg/prefix_override:/home/barakooda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/barakooda/ros2_ws/build/my_py_pkg/build --no-deps install_data

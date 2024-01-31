@@ -1,0 +1,9 @@
+[0.065s] Invoking command in '/home/barakooda/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/barakooda/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/barakooda/ros2_ws/build/my_cpp_pkg -- -j8 -l8
+[0.079s] [31mCMake Error at CMakeLists.txt:13:
+[0.079s]   Parse error.  Expected "(", got identifier with text "target_dependencies".
+[0.079s] 
+[0.079s] [0m
+[0.080s] -- Configuring incomplete, errors occurred!
+[0.081s] See also "/home/barakooda/ros2_ws/build/my_cpp_pkg/CMakeFiles/CMakeOutput.log".
+[0.082s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.085s] Invoked command in '/home/barakooda/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=/home/barakooda/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/barakooda/ros2_ws/build/my_cpp_pkg -- -j8 -l8
