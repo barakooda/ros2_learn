@@ -1,0 +1,40 @@
+[0.064s] Invoking command in '/home/barakooda/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/barakooda/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/barakooda/ros2_ws/build/my_cpp_pkg -- -j8 -l8
+[0.106s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_client[0m
+[0.118s] [ 12%] Built target robot_news_station
+[0.119s] [ 50%] Built target smartphone
+[0.120s] [ 50%] Built target add_two_ints_server
+[0.120s] [ 37%] Built target number_publisher
+[0.121s] [ 62%] Built target add_two_ints_client_no_opp
+[0.123s] [ 75%] Built target cpp_node
+[0.127s] [ 87%] Built target number_counter
+[0.132s] [ 93%] [32mBuilding CXX object CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o[0m
+[3.400s] [100%] [32m[1mLinking CXX executable add_two_ints_client[0m
+[3.559s] [100%] Built target add_two_ints_client
+[3.577s] Invoked command in '/home/barakooda/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/barakooda/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/barakooda/ros2_ws/build/my_cpp_pkg -- -j8 -l8
+[3.625s] Invoking command in '/home/barakooda/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/barakooda/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/barakooda/ros2_ws/build/my_cpp_pkg
+[3.631s] -- Install configuration: ""
+[3.632s] -- Up-to-date: /home/barakooda/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[3.632s] -- Up-to-date: /home/barakooda/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[3.632s] -- Up-to-date: /home/barakooda/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+[3.632s] -- Up-to-date: /home/barakooda/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher
+[3.632s] -- Up-to-date: /home/barakooda/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter
+[3.633s] -- Up-to-date: /home/barakooda/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server
+[3.633s] -- Up-to-date: /home/barakooda/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_opp
+[3.633s] -- Installing: /home/barakooda/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client
+[3.634s] -- Set runtime path of "/home/barakooda/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client" to ""
+[3.634s] -- Up-to-date: /home/barakooda/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[3.634s] -- Up-to-date: /home/barakooda/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[3.635s] -- Up-to-date: /home/barakooda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[3.635s] -- Up-to-date: /home/barakooda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[3.635s] -- Up-to-date: /home/barakooda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[3.635s] -- Up-to-date: /home/barakooda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[3.635s] -- Up-to-date: /home/barakooda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[3.635s] -- Up-to-date: /home/barakooda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[3.635s] -- Up-to-date: /home/barakooda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[3.635s] -- Up-to-date: /home/barakooda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[3.635s] -- Installing: /home/barakooda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[3.635s] -- Up-to-date: /home/barakooda/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[3.636s] -- Up-to-date: /home/barakooda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[3.636s] -- Up-to-date: /home/barakooda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[3.636s] -- Up-to-date: /home/barakooda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[3.638s] Invoked command in '/home/barakooda/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/barakooda/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/barakooda/ros2_ws/build/my_cpp_pkg
