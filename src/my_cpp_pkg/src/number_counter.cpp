@@ -51,6 +51,14 @@ private:
         {
             message_.data = 0;
             RCLCPP_INFO(this->get_logger(), "Counter has been reset");
+            response->success = true;
+            response->message = "Counter has been reset";
+        }
+        else
+        {
+            RCLCPP_INFO(this->get_logger(), "Counter has not been reset");
+            response->success = false;
+            response->message = "Counter has not been reset";
         }
     }
 
