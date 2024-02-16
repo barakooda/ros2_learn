@@ -8,6 +8,9 @@
 /home/barakooda/ros2_ws/build/my_cpp_pkg/CMakeFiles/add_two_ints_server.dir
 /home/barakooda/ros2_ws/build/my_cpp_pkg/CMakeFiles/add_two_ints_client_no_opp.dir
 /home/barakooda/ros2_ws/build/my_cpp_pkg/CMakeFiles/add_two_ints_client.dir
+/home/barakooda/ros2_ws/build/my_cpp_pkg/CMakeFiles/hw_status_publisher.dir
+/home/barakooda/ros2_ws/build/my_cpp_pkg/CMakeFiles/battery_status.dir
+/home/barakooda/ros2_ws/build/my_cpp_pkg/CMakeFiles/led_panel.dir
 /home/barakooda/ros2_ws/build/my_cpp_pkg/CMakeFiles/test.dir
 /home/barakooda/ros2_ws/build/my_cpp_pkg/CMakeFiles/edit_cache.dir
 /home/barakooda/ros2_ws/build/my_cpp_pkg/CMakeFiles/rebuild_cache.dir

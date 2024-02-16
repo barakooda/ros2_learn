@@ -71,6 +71,9 @@ all: CMakeFiles/number_counter.dir/all
 all: CMakeFiles/add_two_ints_server.dir/all
 all: CMakeFiles/add_two_ints_client_no_opp.dir/all
 all: CMakeFiles/add_two_ints_client.dir/all
+all: CMakeFiles/hw_status_publisher.dir/all
+all: CMakeFiles/battery_status.dir/all
+all: CMakeFiles/led_panel.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -88,6 +91,9 @@ clean: CMakeFiles/number_counter.dir/clean
 clean: CMakeFiles/add_two_ints_server.dir/clean
 clean: CMakeFiles/add_two_ints_client_no_opp.dir/clean
 clean: CMakeFiles/add_two_ints_client.dir/clean
+clean: CMakeFiles/hw_status_publisher.dir/clean
+clean: CMakeFiles/battery_status.dir/clean
+clean: CMakeFiles/led_panel.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -149,7 +155,7 @@ CMakeFiles/my_cpp_pkg_uninstall.dir/clean:
 CMakeFiles/cpp_node.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_node.dir/build.make CMakeFiles/cpp_node.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_node.dir/build.make CMakeFiles/cpp_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/barakooda/ros2_ws/build/my_cpp_pkg/CMakeFiles --progress-num=7,8 "Built target cpp_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/barakooda/ros2_ws/build/my_cpp_pkg/CMakeFiles --progress-num=9,10 "Built target cpp_node"
 .PHONY : CMakeFiles/cpp_node.dir/all
 
 # Build rule for subdir invocation for target.
@@ -175,7 +181,7 @@ CMakeFiles/cpp_node.dir/clean:
 CMakeFiles/robot_news_station.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_news_station.dir/build.make CMakeFiles/robot_news_station.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_news_station.dir/build.make CMakeFiles/robot_news_station.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/barakooda/ros2_ws/build/my_cpp_pkg/CMakeFiles --progress-num=13,14 "Built target robot_news_station"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/barakooda/ros2_ws/build/my_cpp_pkg/CMakeFiles --progress-num=19,20 "Built target robot_news_station"
 .PHONY : CMakeFiles/robot_news_station.dir/all
 
 # Build rule for subdir invocation for target.
@@ -201,7 +207,7 @@ CMakeFiles/robot_news_station.dir/clean:
 CMakeFiles/smartphone.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/smartphone.dir/build.make CMakeFiles/smartphone.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/smartphone.dir/build.make CMakeFiles/smartphone.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/barakooda/ros2_ws/build/my_cpp_pkg/CMakeFiles --progress-num=15,16 "Built target smartphone"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/barakooda/ros2_ws/build/my_cpp_pkg/CMakeFiles --progress-num=21,22 "Built target smartphone"
 .PHONY : CMakeFiles/smartphone.dir/all
 
 # Build rule for subdir invocation for target.
@@ -227,7 +233,7 @@ CMakeFiles/smartphone.dir/clean:
 CMakeFiles/number_publisher.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_publisher.dir/build.make CMakeFiles/number_publisher.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_publisher.dir/build.make CMakeFiles/number_publisher.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/barakooda/ros2_ws/build/my_cpp_pkg/CMakeFiles --progress-num=11,12 "Built target number_publisher"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/barakooda/ros2_ws/build/my_cpp_pkg/CMakeFiles --progress-num=17,18 "Built target number_publisher"
 .PHONY : CMakeFiles/number_publisher.dir/all
 
 # Build rule for subdir invocation for target.
@@ -253,7 +259,7 @@ CMakeFiles/number_publisher.dir/clean:
 CMakeFiles/number_counter.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_counter.dir/build.make CMakeFiles/number_counter.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_counter.dir/build.make CMakeFiles/number_counter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/barakooda/ros2_ws/build/my_cpp_pkg/CMakeFiles --progress-num=9,10 "Built target number_counter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/barakooda/ros2_ws/build/my_cpp_pkg/CMakeFiles --progress-num=15,16 "Built target number_counter"
 .PHONY : CMakeFiles/number_counter.dir/all
 
 # Build rule for subdir invocation for target.
@@ -349,6 +355,84 @@ add_two_ints_client: CMakeFiles/add_two_ints_client.dir/rule
 CMakeFiles/add_two_ints_client.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_two_ints_client.dir/build.make CMakeFiles/add_two_ints_client.dir/clean
 .PHONY : CMakeFiles/add_two_ints_client.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/hw_status_publisher.dir
+
+# All Build rule for target.
+CMakeFiles/hw_status_publisher.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw_status_publisher.dir/build.make CMakeFiles/hw_status_publisher.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw_status_publisher.dir/build.make CMakeFiles/hw_status_publisher.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/barakooda/ros2_ws/build/my_cpp_pkg/CMakeFiles --progress-num=11,12 "Built target hw_status_publisher"
+.PHONY : CMakeFiles/hw_status_publisher.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/hw_status_publisher.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/barakooda/ros2_ws/build/my_cpp_pkg/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hw_status_publisher.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/barakooda/ros2_ws/build/my_cpp_pkg/CMakeFiles 0
+.PHONY : CMakeFiles/hw_status_publisher.dir/rule
+
+# Convenience name for target.
+hw_status_publisher: CMakeFiles/hw_status_publisher.dir/rule
+.PHONY : hw_status_publisher
+
+# clean rule for target.
+CMakeFiles/hw_status_publisher.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw_status_publisher.dir/build.make CMakeFiles/hw_status_publisher.dir/clean
+.PHONY : CMakeFiles/hw_status_publisher.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/battery_status.dir
+
+# All Build rule for target.
+CMakeFiles/battery_status.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery_status.dir/build.make CMakeFiles/battery_status.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery_status.dir/build.make CMakeFiles/battery_status.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/barakooda/ros2_ws/build/my_cpp_pkg/CMakeFiles --progress-num=7,8 "Built target battery_status"
+.PHONY : CMakeFiles/battery_status.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/battery_status.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/barakooda/ros2_ws/build/my_cpp_pkg/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/battery_status.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/barakooda/ros2_ws/build/my_cpp_pkg/CMakeFiles 0
+.PHONY : CMakeFiles/battery_status.dir/rule
+
+# Convenience name for target.
+battery_status: CMakeFiles/battery_status.dir/rule
+.PHONY : battery_status
+
+# clean rule for target.
+CMakeFiles/battery_status.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery_status.dir/build.make CMakeFiles/battery_status.dir/clean
+.PHONY : CMakeFiles/battery_status.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/led_panel.dir
+
+# All Build rule for target.
+CMakeFiles/led_panel.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/led_panel.dir/build.make CMakeFiles/led_panel.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/led_panel.dir/build.make CMakeFiles/led_panel.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/barakooda/ros2_ws/build/my_cpp_pkg/CMakeFiles --progress-num=13,14 "Built target led_panel"
+.PHONY : CMakeFiles/led_panel.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/led_panel.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/barakooda/ros2_ws/build/my_cpp_pkg/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/led_panel.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/barakooda/ros2_ws/build/my_cpp_pkg/CMakeFiles 0
+.PHONY : CMakeFiles/led_panel.dir/rule
+
+# Convenience name for target.
+led_panel: CMakeFiles/led_panel.dir/rule
+.PHONY : led_panel
+
+# clean rule for target.
+CMakeFiles/led_panel.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/led_panel.dir/build.make CMakeFiles/led_panel.dir/clean
+.PHONY : CMakeFiles/led_panel.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
