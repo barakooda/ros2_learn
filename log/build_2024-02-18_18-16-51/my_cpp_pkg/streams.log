@@ -1,0 +1,46 @@
+[0.046s] Invoking command in '/home/barakooda/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/barakooda/ros2_ws/install/my_robot_interfaces:/home/barakooda/ros2_ws/install/my_cpp_pkg:/home/barakooda/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/barakooda/ros2_ws/build/my_cpp_pkg -- -j8 -l8
+[0.096s] [ 13%] Built target cpp_node
+[0.097s] [ 27%] Built target smartphone
+[0.097s] [ 40%] Built target add_two_ints_client_no_opp
+[0.097s] [ 40%] Built target add_two_ints_server
+[0.097s] [ 50%] Built target number_publisher
+[0.099s] [ 54%] Built target robot_news_station
+[0.099s] [ 63%] Built target number_counter
+[0.105s] [ 72%] Built target add_two_ints_client
+[0.108s] [35m[1mConsolidate compiler generated dependencies of target led_panel[0m
+[0.118s] [ 90%] Built target hw_status_publisher
+[0.118s] [ 90%] Built target battery_status
+[0.125s] [ 95%] [32mBuilding CXX object CMakeFiles/led_panel.dir/src/led_panel.cpp.o[0m
+[3.908s] [100%] [32m[1mLinking CXX executable led_panel[0m
+[4.077s] [100%] Built target led_panel
+[4.087s] Invoked command in '/home/barakooda/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/barakooda/ros2_ws/install/my_robot_interfaces:/home/barakooda/ros2_ws/install/my_cpp_pkg:/home/barakooda/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/barakooda/ros2_ws/build/my_cpp_pkg -- -j8 -l8
+[4.143s] Invoking command in '/home/barakooda/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/barakooda/ros2_ws/install/my_robot_interfaces:/home/barakooda/ros2_ws/install/my_cpp_pkg:/home/barakooda/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/barakooda/ros2_ws/build/my_cpp_pkg
+[4.149s] -- Install configuration: ""
+[4.149s] -- Up-to-date: /home/barakooda/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[4.149s] -- Up-to-date: /home/barakooda/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[4.149s] -- Up-to-date: /home/barakooda/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+[4.149s] -- Up-to-date: /home/barakooda/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher
+[4.149s] -- Up-to-date: /home/barakooda/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter
+[4.149s] -- Up-to-date: /home/barakooda/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server
+[4.150s] -- Up-to-date: /home/barakooda/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_opp
+[4.150s] -- Up-to-date: /home/barakooda/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client
+[4.150s] -- Up-to-date: /home/barakooda/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/hw_status_publisher
+[4.150s] -- Up-to-date: /home/barakooda/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/battery_status
+[4.150s] -- Installing: /home/barakooda/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/led_panel
+[4.152s] -- Set runtime path of "/home/barakooda/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/led_panel" to ""
+[4.152s] -- Up-to-date: /home/barakooda/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[4.152s] -- Up-to-date: /home/barakooda/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[4.152s] -- Up-to-date: /home/barakooda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[4.152s] -- Up-to-date: /home/barakooda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[4.152s] -- Up-to-date: /home/barakooda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[4.152s] -- Up-to-date: /home/barakooda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[4.152s] -- Up-to-date: /home/barakooda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[4.152s] -- Up-to-date: /home/barakooda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[4.152s] -- Up-to-date: /home/barakooda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[4.152s] -- Up-to-date: /home/barakooda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[4.152s] -- Installing: /home/barakooda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[4.152s] -- Up-to-date: /home/barakooda/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[4.153s] -- Up-to-date: /home/barakooda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[4.153s] -- Up-to-date: /home/barakooda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[4.153s] -- Up-to-date: /home/barakooda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[4.154s] Invoked command in '/home/barakooda/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/barakooda/ros2_ws/install/my_robot_interfaces:/home/barakooda/ros2_ws/install/my_cpp_pkg:/home/barakooda/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/barakooda/ros2_ws/build/my_cpp_pkg

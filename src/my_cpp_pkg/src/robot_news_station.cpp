@@ -4,18 +4,21 @@
 class RobotNewsStatioNode : public rclcpp::Node 
 {
 public:
-    RobotNewsStatioNode() : Node("robot_news_station") 
-    {
-        publisher_ = this->create_publisher<example_interfaces::msg::String>("robot_news", 10);
-        timer_ = this->create_wall_timer(std::chrono::milliseconds(500), std::bind(&RobotNewsStatioNode::publishNews, this));
-        robot_name = "R2D2";
-        RCLCPP_INFO(this->get_logger(), "Robot News Station has been started");
-    }
+        RobotNewsStatioNode() : Node("robot_news_station") 
+        {
+            RCLCPP_INFO(this->get_logger(), "Declaring parameter 'robot_name' with default value 'R2D66'");
+            this->declare_parameter("robot_name", "R2D66");
+            robot_name = this->get_parameter("robot_name").as_string();
+            
+            publisher_ = this->create_publisher<example_interfaces::msg::String>("robot_news", 10);
+            timer_ = this->create_wall_timer(std::chrono::milliseconds(500), std::bind(&RobotNewsStatioNode::publishNews, this));
+            RCLCPP_INFO(this->get_logger(), "Robot News %s Station has been started", robot_name.c_str());
+        }
 
-private:
-    std::string robot_name;
-    rclcpp::Publisher<example_interfaces::msg::String>::SharedPtr publisher_;
-    rclcpp::TimerBase::SharedPtr timer_;
+    private:
+        std::string robot_name;
+        rclcpp::Publisher<example_interfaces::msg::String>::SharedPtr publisher_;
+        rclcpp::TimerBase::SharedPtr timer_;
 
     void publishNews()
     {

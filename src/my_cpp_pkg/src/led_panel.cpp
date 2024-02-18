@@ -7,6 +7,14 @@ class LedPanelServerNode : public rclcpp::Node // MODIFY NAME
 public:
     LedPanelServerNode() : Node("led_panel") // MODIFY NAME
     {
+
+        this->declare_parameter("led_status", std::vector<bool>{false, false, false});
+        
+        for(int i = 0;i<3;i++) {
+            led_status.led_status[i] =
+            this->get_parameter("led_status").as_bool_array()[i];
+        }
+        
         publisher_ = this->create_publisher<my_robot_interfaces::msg::LedStatus>("led_status", 10);
 
         server_ = this->create_service<my_robot_interfaces::srv::SetLed>

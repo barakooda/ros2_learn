@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target robot_news_station[0m
+[ 18%] Built target smartphone
+[ 18%] Built target number_counter
+[ 27%] Built target number_publisher
+[ 36%] Built target add_two_ints_server
+[ 54%] Built target add_two_ints_client_no_opp
+[ 54%] Built target cpp_node
+[ 63%] Built target robot_news_station
+[ 72%] Built target add_two_ints_client
+[ 81%] Built target hw_status_publisher
+[ 86%] [32mBuilding CXX object CMakeFiles/led_panel.dir/src/led_panel.cpp.o[0m
+[ 95%] Built target battery_status
