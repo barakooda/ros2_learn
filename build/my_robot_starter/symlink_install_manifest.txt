@@ -1,0 +1,16 @@
+/home/barakooda/ros2_ws/install/my_robot_starter/share/my_robot_starter/launch/number_app.launch.py
+/home/barakooda/ros2_ws/install/my_robot_starter/share/ament_index/resource_index/package_run_dependencies/my_robot_starter
+/home/barakooda/ros2_ws/install/my_robot_starter/share/ament_index/resource_index/parent_prefix_path/my_robot_starter
+/home/barakooda/ros2_ws/install/my_robot_starter/share/my_robot_starter/environment/ament_prefix_path.sh
+/home/barakooda/ros2_ws/install/my_robot_starter/share/my_robot_starter/environment/ament_prefix_path.dsv
+/home/barakooda/ros2_ws/install/my_robot_starter/share/my_robot_starter/environment/path.sh
+/home/barakooda/ros2_ws/install/my_robot_starter/share/my_robot_starter/environment/path.dsv
+/home/barakooda/ros2_ws/install/my_robot_starter/share/my_robot_starter/local_setup.bash
+/home/barakooda/ros2_ws/install/my_robot_starter/share/my_robot_starter/local_setup.sh
+/home/barakooda/ros2_ws/install/my_robot_starter/share/my_robot_starter/local_setup.zsh
+/home/barakooda/ros2_ws/install/my_robot_starter/share/my_robot_starter/local_setup.dsv
+/home/barakooda/ros2_ws/install/my_robot_starter/share/my_robot_starter/package.dsv
+/home/barakooda/ros2_ws/install/my_robot_starter/share/ament_index/resource_index/packages/my_robot_starter
+/home/barakooda/ros2_ws/install/my_robot_starter/share/my_robot_starter/cmake/my_robot_starterConfig.cmake
+/home/barakooda/ros2_ws/install/my_robot_starter/share/my_robot_starter/cmake/my_robot_starterConfig-version.cmake
+/home/barakooda/ros2_ws/install/my_robot_starter/share/my_robot_starter/package.xml

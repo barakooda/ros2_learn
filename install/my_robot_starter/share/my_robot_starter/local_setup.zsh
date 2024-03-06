@@ -1,0 +1,1 @@
+/home/barakooda/ros2_ws/build/my_robot_starter/ament_cmake_environment_hooks/local_setup.zsh
