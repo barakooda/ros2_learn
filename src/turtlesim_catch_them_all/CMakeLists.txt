@@ -18,17 +18,15 @@ find_package(turtlesim REQUIRED)
 
 # Declare a C++ executable
 add_executable(turtle_controller src/turtle_controller.cpp)
+ament_target_dependencies(turtle_controller rclcpp geometry_msgs turtlesim)
 
-# Specify libraries to link a library or executable target against
-ament_target_dependencies(
-  turtle_controller
-  rclcpp
-  geometry_msgs
-  turtlesim
-  )
+add_executable(turtle_spawner src/turtle_spawner.cpp)
+ament_target_dependencies(turtle_spawner rclcpp geometry_msgs turtlesim)
+
 
 install(TARGETS
   turtle_controller
+  turtle_spawner
   DESTINATION lib/${PROJECT_NAME}
 )
 

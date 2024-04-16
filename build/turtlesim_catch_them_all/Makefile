@@ -210,6 +210,19 @@ turtle_controller/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_controller.dir/build.make CMakeFiles/turtle_controller.dir/build
 .PHONY : turtle_controller/fast
 
+#=============================================================================
+# Target rules for targets named turtle_spawner
+
+# Build rule for target.
+turtle_spawner: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 turtle_spawner
+.PHONY : turtle_spawner
+
+# fast build rule for target.
+turtle_spawner/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_spawner.dir/build.make CMakeFiles/turtle_spawner.dir/build
+.PHONY : turtle_spawner/fast
+
 src/turtle_controller.o: src/turtle_controller.cpp.o
 .PHONY : src/turtle_controller.o
 
@@ -234,6 +247,30 @@ src/turtle_controller.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_controller.dir/build.make CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.s
 .PHONY : src/turtle_controller.cpp.s
 
+src/turtle_spawner.o: src/turtle_spawner.cpp.o
+.PHONY : src/turtle_spawner.o
+
+# target to build an object file
+src/turtle_spawner.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_spawner.dir/build.make CMakeFiles/turtle_spawner.dir/src/turtle_spawner.cpp.o
+.PHONY : src/turtle_spawner.cpp.o
+
+src/turtle_spawner.i: src/turtle_spawner.cpp.i
+.PHONY : src/turtle_spawner.i
+
+# target to preprocess a source file
+src/turtle_spawner.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_spawner.dir/build.make CMakeFiles/turtle_spawner.dir/src/turtle_spawner.cpp.i
+.PHONY : src/turtle_spawner.cpp.i
+
+src/turtle_spawner.s: src/turtle_spawner.cpp.s
+.PHONY : src/turtle_spawner.s
+
+# target to generate assembly for a file
+src/turtle_spawner.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_spawner.dir/build.make CMakeFiles/turtle_spawner.dir/src/turtle_spawner.cpp.s
+.PHONY : src/turtle_spawner.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +287,13 @@ help:
 	@echo "... turtlesim_catch_them_all_uninstall"
 	@echo "... uninstall"
 	@echo "... turtle_controller"
+	@echo "... turtle_spawner"
 	@echo "... src/turtle_controller.o"
 	@echo "... src/turtle_controller.i"
 	@echo "... src/turtle_controller.s"
+	@echo "... src/turtle_spawner.o"
+	@echo "... src/turtle_spawner.i"
+	@echo "... src/turtle_spawner.s"
 .PHONY : help
 
 
