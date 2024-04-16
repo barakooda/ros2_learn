@@ -1,0 +1,341 @@
+[0.000000] (-) TimerEvent: {}
+[0.000149] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.000218] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.001672] (-) JobUnselected: {'identifier': 'my_robot_bringup'}
+[0.001776] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.001793] (-) JobUnselected: {'identifier': 'my_robot_starter'}
+[0.001805] (turtlesim_catch_them_all) JobQueued: {'identifier': 'turtlesim_catch_them_all', 'dependencies': OrderedDict()}
+[0.001818] (turtlesim_catch_them_all) JobStarted: {'identifier': 'turtlesim_catch_them_all'}
+[0.009235] (turtlesim_catch_them_all) JobProgress: {'identifier': 'turtlesim_catch_them_all', 'progress': 'cmake'}
+[0.010548] (turtlesim_catch_them_all) JobProgress: {'identifier': 'turtlesim_catch_them_all', 'progress': 'build'}
+[0.010652] (turtlesim_catch_them_all) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/barakooda/ros2_ws/build/turtlesim_catch_them_all', '--', '-j6', '-l6'], 'cwd': '/home/barakooda/ros2_ws/build/turtlesim_catch_them_all', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IL:en'), ('USER', 'barakooda'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/barakooda/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/barakooda'), ('OLDPWD', '/home/barakooda'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1175'), ('SYSTEMD_EXEC_PID', '1337'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3960'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/barakooda/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'barakooda'), ('JOURNAL_STREAM', '8:24600'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'barakooda'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vm:@/tmp/.ICE-unix/1316,unix/vm:/tmp/.ICE-unix/1316'), ('INVOCATION_ID', '55b92de4051747b0a5704ea03eb61ebb'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_IL.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.L5I5L2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/barakooda/ros2_ws/install/turtlesim_catch_them_all:/home/barakooda/ros2_ws/install/my_robot_starter:/home/barakooda/ros2_ws/install/my_robot_bringup:/home/barakooda/ros2_ws/install/my_cpp_pkg:/home/barakooda/ros2_ws/install/my_robot_interfaces:/home/barakooda/ros2_ws/install/my_py_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c3a7c0c3-ca21-4e12-823c-316ad7d442ba'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/barakooda/ros2_ws/build/turtlesim_catch_them_all'), ('LC_ALL', 'en_IL.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/barakooda/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/barakooda/ros2_ws/build/my_py_pkg:/home/barakooda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/barakooda/ros2_ws/install/turtlesim_catch_them_all:/home/barakooda/ros2_ws/install/my_robot_starter:/home/barakooda/ros2_ws/install/my_robot_bringup:/home/barakooda/ros2_ws/install/my_cpp_pkg:/home/barakooda/ros2_ws/install/my_robot_interfaces:/home/barakooda/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.040283] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.112498] (-) TimerEvent: {}
+[0.137452] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.172671] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.174204] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.178158] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.185604] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.195804] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.215642] (-) TimerEvent: {}
+[0.232817] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.233952] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.315860] (turtlesim_catch_them_all) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.316253] (-) TimerEvent: {}
+[0.417235] (-) TimerEvent: {}
+[0.439704] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.488847] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[0.518187] (-) TimerEvent: {}
+[0.582841] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.619331] (-) TimerEvent: {}
+[0.725538] (-) TimerEvent: {}
+[0.804566] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.825995] (-) TimerEvent: {}
+[0.928523] (-) TimerEvent: {}
+[1.030266] (-) TimerEvent: {}
+[1.095650] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.130588] (-) TimerEvent: {}
+[1.196302] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.216173] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.220734] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.231215] (-) TimerEvent: {}
+[1.247375] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.247614] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.247665] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.247703] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.268072] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.327155] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.331430] (-) TimerEvent: {}
+[1.378983] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Generating done\n'}
+[1.396575] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Build files have been written to: /home/barakooda/ros2_ws/build/turtlesim_catch_them_all\n'}
+[1.432800] (-) TimerEvent: {}
+[1.436803] (turtlesim_catch_them_all) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.439026] (turtlesim_catch_them_all) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_spawner\x1b[0m\n'}
+[1.439374] (turtlesim_catch_them_all) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_controller\x1b[0m\n'}
+[1.450736] (turtlesim_catch_them_all) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.461062] (turtlesim_catch_them_all) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_turtlesim_catch_them_all\n'}
+[1.467781] (turtlesim_catch_them_all) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o\x1b[0m\n'}
+[1.480046] (turtlesim_catch_them_all) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/turtle_spawner.dir/src/turtle_spawner.cpp.o\x1b[0m\n'}
+[1.673990] (-) TimerEvent: {}
+[1.697918] (turtlesim_catch_them_all) StdoutLine: {'line': b'running egg_info\n'}
+[1.698134] (turtlesim_catch_them_all) StdoutLine: {'line': b'creating turtlesim_catch_them_all.egg-info\n'}
+[1.698181] (turtlesim_catch_them_all) StdoutLine: {'line': b'writing turtlesim_catch_them_all.egg-info/PKG-INFO\n'}
+[1.698221] (turtlesim_catch_them_all) StdoutLine: {'line': b'writing dependency_links to turtlesim_catch_them_all.egg-info/dependency_links.txt\n'}
+[1.698258] (turtlesim_catch_them_all) StdoutLine: {'line': b'writing top-level names to turtlesim_catch_them_all.egg-info/top_level.txt\n'}
+[1.698293] (turtlesim_catch_them_all) StdoutLine: {'line': b"writing manifest file 'turtlesim_catch_them_all.egg-info/SOURCES.txt'\n"}
+[1.701455] (turtlesim_catch_them_all) StdoutLine: {'line': b"reading manifest file 'turtlesim_catch_them_all.egg-info/SOURCES.txt'\n"}
+[1.710871] (turtlesim_catch_them_all) StdoutLine: {'line': b"writing manifest file 'turtlesim_catch_them_all.egg-info/SOURCES.txt'\n"}
+[1.749228] (turtlesim_catch_them_all) StdoutLine: {'line': b'[  9%] Built target ament_cmake_python_build_turtlesim_catch_them_all_egg\n'}
+[1.774287] (-) TimerEvent: {}
+[1.792105] (turtlesim_catch_them_all) StdoutLine: {'line': b'[  9%] Built target turtlesim_catch_them_all__cpp\n'}
+[1.822932] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.823151] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 13%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.823197] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.826758] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/turtlesim_catch_them_all__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_catch_them_all/msg/detail/turtle__functions.c.o\x1b[0m\n'}
+[1.876166] (-) TimerEvent: {}
+[1.977740] (-) TimerEvent: {}
+[2.048682] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/turtlesim_catch_them_all__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_catch_them_all/msg/detail/turtle_array__functions.c.o\x1b[0m\n'}
+[2.077995] (-) TimerEvent: {}
+[2.125491] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_catch_them_all__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim_catch_them_all/msg/turtle__type_support.cpp.o\x1b[0m\n'}
+[2.160252] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking C shared library libturtlesim_catch_them_all__rosidl_generator_c.so\x1b[0m\n'}
+[2.189657] (-) TimerEvent: {}
+[2.248502] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_catch_them_all__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim_catch_them_all/msg/detail/turtle__type_support.cpp.o\x1b[0m\n'}
+[2.259985] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 27%] Built target turtlesim_catch_them_all__rosidl_generator_c\n'}
+[2.273087] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.282084] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_catch_them_all__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim_catch_them_all/msg/detail/dds_fastrtps/turtle__type_support.cpp.o\x1b[0m\n'}
+[2.296608] (-) TimerEvent: {}
+[2.398126] (-) TimerEvent: {}
+[2.417090] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_catch_them_all__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim_catch_them_all/msg/turtle_array__type_support.cpp.o\x1b[0m\n'}
+[2.518153] (-) TimerEvent: {}
+[2.619504] (-) TimerEvent: {}
+[2.664859] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_catch_them_all__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim_catch_them_all/msg/detail/turtle__type_support_c.cpp.o\x1b[0m\n'}
+[2.678221] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_catch_them_all__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim_catch_them_all/msg/detail/turtle_array__type_support.cpp.o\x1b[0m\n'}
+[2.695284] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_catch_them_all__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim_catch_them_all/msg/detail/dds_fastrtps/turtle_array__type_support.cpp.o\x1b[0m\n'}
+[2.720426] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim_catch_them_all__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.721064] (-) TimerEvent: {}
+[2.764244] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 44%] Built target turtlesim_catch_them_all__rosidl_typesupport_cpp\n'}
+[2.778925] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.856626] (-) TimerEvent: {}
+[2.998092] (-) TimerEvent: {}
+[3.015470] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_catch_them_all__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim_catch_them_all/msg/detail/turtle_array__type_support_c.cpp.o\x1b[0m\n'}
+[3.064134] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/turtlesim_catch_them_all__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_catch_them_all/msg/detail/turtle__type_support.c.o\x1b[0m\n'}
+[3.101955] (-) TimerEvent: {}
+[3.114198] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim_catch_them_all__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.118079] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/turtlesim_catch_them_all__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_catch_them_all/msg/detail/turtle_array__type_support.c.o\x1b[0m\n'}
+[3.163446] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libturtlesim_catch_them_all__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.185626] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim_catch_them_all__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.202792] (-) TimerEvent: {}
+[3.208700] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 60%] Built target turtlesim_catch_them_all__rosidl_typesupport_introspection_c\n'}
+[3.237535] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 60%] Built target turtlesim_catch_them_all__rosidl_typesupport_introspection_cpp\n'}
+[3.251906] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 62%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.267814] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 62%] Built target turtlesim_catch_them_all__rosidl_typesupport_fastrtps_cpp\n'}
+[3.326871] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim_catch_them_all__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.329111] (-) TimerEvent: {}
+[3.399643] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 65%] Built target turtlesim_catch_them_all__rosidl_typesupport_fastrtps_c\n'}
+[3.431113] (-) TimerEvent: {}
+[3.501168] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_catch_them_all__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim_catch_them_all/msg/turtle__type_support.cpp.o\x1b[0m\n'}
+[3.503386] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_catch_them_all__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim_catch_them_all/msg/turtle_array__type_support.cpp.o\x1b[0m\n'}
+[3.534109] (-) TimerEvent: {}
+[3.535662] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim_catch_them_all__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.609533] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 72%] Built target turtlesim_catch_them_all__rosidl_typesupport_c\n'}
+[3.635423] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 72%] Built target turtlesim_catch_them_all\n'}
+[3.635990] (-) TimerEvent: {}
+[3.662861] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.736876] (-) TimerEvent: {}
+[3.842499] (-) TimerEvent: {}
+[3.963383] (-) TimerEvent: {}
+[3.989791] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 74%] Built target turtlesim_catch_them_all__py\n'}
+[4.012637] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding C object CMakeFiles/turtlesim_catch_them_all__rosidl_generator_py.dir/rosidl_generator_py/turtlesim_catch_them_all/msg/_turtle_array_s.c.o\x1b[0m\n'}
+[4.013025] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/turtlesim_catch_them_all__rosidl_generator_py.dir/rosidl_generator_py/turtlesim_catch_them_all/msg/_turtle_s.c.o\x1b[0m\n'}
+[4.092133] (-) TimerEvent: {}
+[4.221298] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim_catch_them_all/libturtlesim_catch_them_all__rosidl_generator_py.so\x1b[0m\n'}
+[4.221551] (-) TimerEvent: {}
+[4.313176] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 81%] Built target turtlesim_catch_them_all__rosidl_generator_py\n'}
+[4.338760] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/turtlesim_catch_them_all__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtlesim_catch_them_all/_turtlesim_catch_them_all_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.339066] (-) TimerEvent: {}
+[4.339416] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/turtlesim_catch_them_all__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtlesim_catch_them_all/_turtlesim_catch_them_all_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.362839] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/turtlesim_catch_them_all__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtlesim_catch_them_all/_turtlesim_catch_them_all_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.427332] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim_catch_them_all/turtlesim_catch_them_all_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.449641] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim_catch_them_all/turtlesim_catch_them_all_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.449896] (-) TimerEvent: {}
+[4.462493] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim_catch_them_all/turtlesim_catch_them_all_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.478699] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 95%] Built target turtlesim_catch_them_all__rosidl_typesupport_introspection_c__pyext\n'}
+[4.485222] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 95%] Built target turtlesim_catch_them_all__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.495378] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 95%] Built target turtlesim_catch_them_all__rosidl_typesupport_c__pyext\n'}
+[5.101202] (-) TimerEvent: {}
+[5.195055] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable turtle_spawner\x1b[0m\n'}
+[5.361315] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 97%] Built target turtle_spawner\n'}
+[5.361614] (-) TimerEvent: {}
+[6.097606] (-) TimerEvent: {}
+[6.259257] (-) TimerEvent: {}
+[6.418447] (-) TimerEvent: {}
+[6.520160] (-) TimerEvent: {}
+[6.624338] (-) TimerEvent: {}
+[6.725138] (-) TimerEvent: {}
+[6.827043] (-) TimerEvent: {}
+[6.934748] (-) TimerEvent: {}
+[7.047612] (-) TimerEvent: {}
+[7.159230] (-) TimerEvent: {}
+[7.265369] (-) TimerEvent: {}
+[7.368428] (-) TimerEvent: {}
+[7.469712] (-) TimerEvent: {}
+[7.575936] (-) TimerEvent: {}
+[7.677662] (-) TimerEvent: {}
+[7.808106] (-) TimerEvent: {}
+[7.909611] (-) TimerEvent: {}
+[8.022355] (-) TimerEvent: {}
+[8.125156] (-) TimerEvent: {}
+[8.226586] (-) TimerEvent: {}
+[8.481454] (-) TimerEvent: {}
+[8.585619] (-) TimerEvent: {}
+[8.649299] (turtlesim_catch_them_all) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtle_controller\x1b[0m\n'}
+[8.686915] (-) TimerEvent: {}
+[8.787909] (-) TimerEvent: {}
+[8.890066] (-) TimerEvent: {}
+[8.990622] (-) TimerEvent: {}
+[9.001245] (turtlesim_catch_them_all) StdoutLine: {'line': b'[100%] Built target turtle_controller\n'}
+[9.013525] (turtlesim_catch_them_all) CommandEnded: {'returncode': 0}
+[9.091016] (-) TimerEvent: {}
+[9.192889] (-) TimerEvent: {}
+[9.206890] (turtlesim_catch_them_all) JobProgress: {'identifier': 'turtlesim_catch_them_all', 'progress': 'install'}
+[9.214937] (turtlesim_catch_them_all) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/barakooda/ros2_ws/build/turtlesim_catch_them_all'], 'cwd': '/home/barakooda/ros2_ws/build/turtlesim_catch_them_all', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IL:en'), ('USER', 'barakooda'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/barakooda/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/barakooda'), ('OLDPWD', '/home/barakooda'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1175'), ('SYSTEMD_EXEC_PID', '1337'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3960'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/barakooda/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'barakooda'), ('JOURNAL_STREAM', '8:24600'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'barakooda'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vm:@/tmp/.ICE-unix/1316,unix/vm:/tmp/.ICE-unix/1316'), ('INVOCATION_ID', '55b92de4051747b0a5704ea03eb61ebb'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_IL.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.L5I5L2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/barakooda/ros2_ws/install/turtlesim_catch_them_all:/home/barakooda/ros2_ws/install/my_robot_starter:/home/barakooda/ros2_ws/install/my_robot_bringup:/home/barakooda/ros2_ws/install/my_cpp_pkg:/home/barakooda/ros2_ws/install/my_robot_interfaces:/home/barakooda/ros2_ws/install/my_py_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c3a7c0c3-ca21-4e12-823c-316ad7d442ba'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/barakooda/ros2_ws/build/turtlesim_catch_them_all'), ('LC_ALL', 'en_IL.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/barakooda/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/barakooda/ros2_ws/build/my_py_pkg:/home/barakooda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/barakooda/ros2_ws/install/turtlesim_catch_them_all:/home/barakooda/ros2_ws/install/my_robot_starter:/home/barakooda/ros2_ws/install/my_robot_bringup:/home/barakooda/ros2_ws/install/my_cpp_pkg:/home/barakooda/ros2_ws/install/my_robot_interfaces:/home/barakooda/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[9.221940] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.223235] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/ament_index/resource_index/rosidl_interfaces/turtlesim_catch_them_all\n'}
+[9.223659] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all\n'}
+[9.228748] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg\n'}
+[9.228792] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg/turtle.h\n'}
+[9.228831] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg/rosidl_generator_c__visibility_control.h\n'}
+[9.228873] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg/turtle_array.h\n'}
+[9.228909] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg/detail\n'}
+[9.228944] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg/detail/turtle_array__struct.h\n'}
+[9.228978] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg/detail/turtle__struct.h\n'}
+[9.229013] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg/detail/turtle__functions.c\n'}
+[9.229046] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg/detail/turtle_array__functions.h\n'}
+[9.229086] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg/detail/turtle_array__type_support.h\n'}
+[9.229119] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg/detail/turtle__functions.h\n'}
+[9.229153] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg/detail/turtle_array__functions.c\n'}
+[9.229187] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg/detail/turtle__type_support.h\n'}
+[9.229226] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/environment/library_path.sh\n'}
+[9.229259] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/environment/library_path.dsv\n'}
+[9.239456] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/lib/libturtlesim_catch_them_all__rosidl_generator_c.so\n'}
+[9.239532] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Set runtime path of "/home/barakooda/ros2_ws/install/turtlesim_catch_them_all/lib/libturtlesim_catch_them_all__rosidl_generator_c.so" to ""\n'}
+[9.239571] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all\n'}
+[9.239607] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg\n'}
+[9.239642] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg/detail\n'}
+[9.239681] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg/detail/turtle_array__rosidl_typesupport_fastrtps_c.h\n'}
+[9.239716] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg/detail/turtle__rosidl_typesupport_fastrtps_c.h\n'}
+[9.239750] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.239784] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/lib/libturtlesim_catch_them_all__rosidl_typesupport_fastrtps_c.so\n'}
+[9.239817] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Set runtime path of "/home/barakooda/ros2_ws/install/turtlesim_catch_them_all/lib/libturtlesim_catch_them_all__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[9.239851] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all\n'}
+[9.239884] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg\n'}
+[9.239918] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg/turtle.hpp\n'}
+[9.240126] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg/turtle_array.hpp\n'}
+[9.240200] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg/detail\n'}
+[9.240238] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg/detail/turtle_array__struct.hpp\n'}
+[9.240280] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg/detail/turtle_array__builder.hpp\n'}
+[9.240708] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg/detail/turtle__traits.hpp\n'}
+[9.240844] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg/detail/turtle_array__traits.hpp\n'}
+[9.240883] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg/detail/turtle__builder.hpp\n'}
+[9.240918] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg/detail/turtle__struct.hpp\n'}
+[9.240955] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all\n'}
+[9.240989] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg\n'}
+[9.241024] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg/detail\n'}
+[9.241361] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg/detail/dds_fastrtps\n'}
+[9.241406] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg/detail/turtle_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.241452] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg/detail/turtle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.241489] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.241524] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/lib/libturtlesim_catch_them_all__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.241561] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Set runtime path of "/home/barakooda/ros2_ws/install/turtlesim_catch_them_all/lib/libturtlesim_catch_them_all__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[9.241596] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all\n'}
+[9.241633] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg\n'}
+[9.241668] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg/detail\n'}
+[9.241913] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg/detail/turtle__rosidl_typesupport_introspection_c.h\n'}
+[9.241994] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg/detail/turtle_array__rosidl_typesupport_introspection_c.h\n'}
+[9.242128] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg/detail/turtle_array__type_support.c\n'}
+[9.242182] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg/detail/turtle__type_support.c\n'}
+[9.242269] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[9.242315] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/lib/libturtlesim_catch_them_all__rosidl_typesupport_introspection_c.so\n'}
+[9.242398] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Set runtime path of "/home/barakooda/ros2_ws/install/turtlesim_catch_them_all/lib/libturtlesim_catch_them_all__rosidl_typesupport_introspection_c.so" to ""\n'}
+[9.242440] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/lib/libturtlesim_catch_them_all__rosidl_typesupport_c.so\n'}
+[9.242478] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Set runtime path of "/home/barakooda/ros2_ws/install/turtlesim_catch_them_all/lib/libturtlesim_catch_them_all__rosidl_typesupport_c.so" to ""\n'}
+[9.242514] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all\n'}
+[9.242551] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg\n'}
+[9.242587] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg/detail\n'}
+[9.242623] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg/detail/turtle__type_support.cpp\n'}
+[9.242658] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg/detail/turtle_array__type_support.cpp\n'}
+[9.242945] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg/detail/turtle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.242985] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/include/turtlesim_catch_them_all/turtlesim_catch_them_all/msg/detail/turtle_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.243069] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/lib/libturtlesim_catch_them_all__rosidl_typesupport_introspection_cpp.so\n'}
+[9.243113] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Set runtime path of "/home/barakooda/ros2_ws/install/turtlesim_catch_them_all/lib/libturtlesim_catch_them_all__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[9.243156] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/lib/libturtlesim_catch_them_all__rosidl_typesupport_cpp.so\n'}
+[9.243546] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Set runtime path of "/home/barakooda/ros2_ws/install/turtlesim_catch_them_all/lib/libturtlesim_catch_them_all__rosidl_typesupport_cpp.so" to ""\n'}
+[9.243588] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/environment/pythonpath.sh\n'}
+[9.243626] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/environment/pythonpath.dsv\n'}
+[9.243757] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/local/lib/python3.10/dist-packages/turtlesim_catch_them_all-0.0.0-py3.10.egg-info\n'}
+[9.243800] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/local/lib/python3.10/dist-packages/turtlesim_catch_them_all-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[9.243836] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/local/lib/python3.10/dist-packages/turtlesim_catch_them_all-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[9.243876] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/local/lib/python3.10/dist-packages/turtlesim_catch_them_all-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[9.243912] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/local/lib/python3.10/dist-packages/turtlesim_catch_them_all-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[9.243947] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/local/lib/python3.10/dist-packages/turtlesim_catch_them_all\n'}
+[9.243981] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/local/lib/python3.10/dist-packages/turtlesim_catch_them_all/turtlesim_catch_them_all_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.244021] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/local/lib/python3.10/dist-packages/turtlesim_catch_them_all/_turtlesim_catch_them_all_s.ep.rosidl_typesupport_c.c\n'}
+[9.244056] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/local/lib/python3.10/dist-packages/turtlesim_catch_them_all/turtlesim_catch_them_all_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.244090] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/local/lib/python3.10/dist-packages/turtlesim_catch_them_all/msg\n'}
+[9.244205] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/local/lib/python3.10/dist-packages/turtlesim_catch_them_all/msg/_turtle.py\n'}
+[9.244278] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/local/lib/python3.10/dist-packages/turtlesim_catch_them_all/msg/_turtle_array.py\n'}
+[9.244313] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/local/lib/python3.10/dist-packages/turtlesim_catch_them_all/msg/_turtle_s.c\n'}
+[9.244354] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/local/lib/python3.10/dist-packages/turtlesim_catch_them_all/msg/__init__.py\n'}
+[9.244392] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/local/lib/python3.10/dist-packages/turtlesim_catch_them_all/msg/_turtle_array_s.c\n'}
+[9.244429] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/local/lib/python3.10/dist-packages/turtlesim_catch_them_all/_turtlesim_catch_them_all_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[9.244464] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/local/lib/python3.10/dist-packages/turtlesim_catch_them_all/libturtlesim_catch_them_all__rosidl_generator_py.so\n'}
+[9.244499] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/local/lib/python3.10/dist-packages/turtlesim_catch_them_all/__init__.py\n'}
+[9.244534] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/local/lib/python3.10/dist-packages/turtlesim_catch_them_all/_turtlesim_catch_them_all_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[9.244569] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/local/lib/python3.10/dist-packages/turtlesim_catch_them_all/turtlesim_catch_them_all_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.276003] (turtlesim_catch_them_all) StdoutLine: {'line': b"Listing '/home/barakooda/ros2_ws/install/turtlesim_catch_them_all/local/lib/python3.10/dist-packages/turtlesim_catch_them_all'...\n"}
+[9.276207] (turtlesim_catch_them_all) StdoutLine: {'line': b"Compiling '/home/barakooda/ros2_ws/install/turtlesim_catch_them_all/local/lib/python3.10/dist-packages/turtlesim_catch_them_all/__init__.py'...\n"}
+[9.276605] (turtlesim_catch_them_all) StdoutLine: {'line': b"Listing '/home/barakooda/ros2_ws/install/turtlesim_catch_them_all/local/lib/python3.10/dist-packages/turtlesim_catch_them_all/msg'...\n"}
+[9.276664] (turtlesim_catch_them_all) StdoutLine: {'line': b"Compiling '/home/barakooda/ros2_ws/install/turtlesim_catch_them_all/local/lib/python3.10/dist-packages/turtlesim_catch_them_all/msg/__init__.py'...\n"}
+[9.276817] (turtlesim_catch_them_all) StdoutLine: {'line': b"Compiling '/home/barakooda/ros2_ws/install/turtlesim_catch_them_all/local/lib/python3.10/dist-packages/turtlesim_catch_them_all/msg/_turtle.py'...\n"}
+[9.276867] (turtlesim_catch_them_all) StdoutLine: {'line': b"Compiling '/home/barakooda/ros2_ws/install/turtlesim_catch_them_all/local/lib/python3.10/dist-packages/turtlesim_catch_them_all/msg/_turtle_array.py'...\n"}
+[9.280469] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/local/lib/python3.10/dist-packages/turtlesim_catch_them_all/turtlesim_catch_them_all_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.280862] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Set runtime path of "/home/barakooda/ros2_ws/install/turtlesim_catch_them_all/local/lib/python3.10/dist-packages/turtlesim_catch_them_all/turtlesim_catch_them_all_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.280931] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/local/lib/python3.10/dist-packages/turtlesim_catch_them_all/turtlesim_catch_them_all_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.281576] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Set runtime path of "/home/barakooda/ros2_ws/install/turtlesim_catch_them_all/local/lib/python3.10/dist-packages/turtlesim_catch_them_all/turtlesim_catch_them_all_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.281703] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/local/lib/python3.10/dist-packages/turtlesim_catch_them_all/turtlesim_catch_them_all_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.281856] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Set runtime path of "/home/barakooda/ros2_ws/install/turtlesim_catch_them_all/local/lib/python3.10/dist-packages/turtlesim_catch_them_all/turtlesim_catch_them_all_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.281995] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/lib/libturtlesim_catch_them_all__rosidl_generator_py.so\n'}
+[9.282032] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Set runtime path of "/home/barakooda/ros2_ws/install/turtlesim_catch_them_all/lib/libturtlesim_catch_them_all__rosidl_generator_py.so" to ""\n'}
+[9.282246] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/msg/Turtle.idl\n'}
+[9.282321] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/msg/TurtleArray.idl\n'}
+[9.282365] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/msg/Turtle.msg\n'}
+[9.282495] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/msg/TurtleArray.msg\n'}
+[9.282534] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all/turtle_controller\n'}
+[9.285469] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Set runtime path of "/home/barakooda/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all/turtle_controller" to ""\n'}
+[9.285545] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all/turtle_spawner\n'}
+[9.286455] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Set runtime path of "/home/barakooda/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all/turtle_spawner" to ""\n'}
+[9.286546] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/ament_index/resource_index/package_run_dependencies/turtlesim_catch_them_all\n'}
+[9.286786] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/ament_index/resource_index/parent_prefix_path/turtlesim_catch_them_all\n'}
+[9.286831] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/environment/ament_prefix_path.sh\n'}
+[9.286871] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/environment/ament_prefix_path.dsv\n'}
+[9.286910] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/environment/path.sh\n'}
+[9.286949] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/environment/path.dsv\n'}
+[9.287275] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/local_setup.bash\n'}
+[9.287356] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/local_setup.sh\n'}
+[9.287407] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/local_setup.zsh\n'}
+[9.287447] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/local_setup.dsv\n'}
+[9.287491] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/package.dsv\n'}
+[9.287818] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/ament_index/resource_index/packages/turtlesim_catch_them_all\n'}
+[9.287976] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/cmake/export_turtlesim_catch_them_all__rosidl_generator_cExport.cmake\n'}
+[9.288017] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/cmake/export_turtlesim_catch_them_all__rosidl_generator_cExport-noconfig.cmake\n'}
+[9.288419] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/cmake/export_turtlesim_catch_them_all__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[9.288797] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/cmake/export_turtlesim_catch_them_all__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[9.289015] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/cmake/export_turtlesim_catch_them_all__rosidl_generator_cppExport.cmake\n'}
+[9.289148] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/cmake/export_turtlesim_catch_them_all__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[9.289213] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/cmake/export_turtlesim_catch_them_all__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[9.289777] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/cmake/turtlesim_catch_them_all__rosidl_typesupport_introspection_cExport.cmake\n'}
+[9.290109] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/cmake/turtlesim_catch_them_all__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[9.290433] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/cmake/turtlesim_catch_them_all__rosidl_typesupport_cExport.cmake\n'}
+[9.290509] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/cmake/turtlesim_catch_them_all__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[9.290575] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/cmake/turtlesim_catch_them_all__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[9.290641] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/cmake/turtlesim_catch_them_all__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[9.290685] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/cmake/turtlesim_catch_them_all__rosidl_typesupport_cppExport.cmake\n'}
+[9.290765] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/cmake/turtlesim_catch_them_all__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[9.290802] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/cmake/export_turtlesim_catch_them_all__rosidl_generator_pyExport.cmake\n'}
+[9.290837] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/cmake/export_turtlesim_catch_them_all__rosidl_generator_pyExport-noconfig.cmake\n'}
+[9.290871] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/cmake/rosidl_cmake-extras.cmake\n'}
+[9.290907] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.290950] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.290986] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[9.291021] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[9.291056] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.291091] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[9.291599] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/cmake/turtlesim_catch_them_allConfig.cmake\n'}
+[9.291679] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/cmake/turtlesim_catch_them_allConfig-version.cmake\n'}
+[9.291718] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/package.xml\n'}
+[9.296886] (turtlesim_catch_them_all) CommandEnded: {'returncode': 0}
+[9.297685] (-) TimerEvent: {}
+[9.398312] (-) TimerEvent: {}
+[9.498678] (-) TimerEvent: {}
+[9.532798] (turtlesim_catch_them_all) JobEnded: {'identifier': 'turtlesim_catch_them_all', 'rc': 0}
+[9.533460] (-) EventReactorShutdown: {}

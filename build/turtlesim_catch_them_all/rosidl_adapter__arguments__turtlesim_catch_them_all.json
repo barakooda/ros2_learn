@@ -1,0 +1,7 @@
+{
+  "package_name": "turtlesim_catch_them_all",
+  "non_idl_tuples": [
+    "/home/barakooda/ros2_ws/src/turtlesim_catch_them_all:msg/Turtle.msg",
+    "/home/barakooda/ros2_ws/src/turtlesim_catch_them_all:msg/TurtleArray.msg"
+  ]
+}

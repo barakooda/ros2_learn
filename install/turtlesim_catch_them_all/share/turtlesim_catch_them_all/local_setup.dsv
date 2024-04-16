@@ -1,2 +1,4 @@
 source;share/turtlesim_catch_them_all/environment/ament_prefix_path.sh
+source;share/turtlesim_catch_them_all/environment/library_path.sh
 source;share/turtlesim_catch_them_all/environment/path.sh
+source;share/turtlesim_catch_them_all/environment/pythonpath.sh

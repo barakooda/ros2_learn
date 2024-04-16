@@ -1,5 +1,12 @@
 #include "rclcpp/rclcpp.hpp"
 #include "turtlesim/srv/spawn.hpp"
+#include <random>
+
+unsigned int seed = 1;
+std::default_random_engine generator(seed);
+std::uniform_real_distribution<double> dist(0.0, 11.0);
+
+
 
 class TurtleSpawner : public rclcpp::Node // MODIFY NAME
 {
@@ -16,6 +23,8 @@ public:
     }
 
 private:
+
+    
 
 
     std::unordered_map<std::string, std::string> turtles;
@@ -35,8 +44,8 @@ private:
         }
         
            
-        request.x = 5.0;
-        request.y = 5.0;
+        request.x = dist(generator);
+        request.y = dist(generator);
         request.theta = 0.0;
         
         std::string name = "turtle" + std::to_string(id);
