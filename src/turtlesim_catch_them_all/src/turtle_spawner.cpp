@@ -34,7 +34,7 @@ private:
     
 
 
-    std::unordered_map<std::string,my_robot_interfaces::msg::Turtle> turtles; // need to change into sorted map
+    std::map<std::string,my_robot_interfaces::msg::Turtle> turtles; // need to change into sorted map
     my_robot_interfaces::msg::Turtle turtle;
 
     rclcpp::TimerBase::SharedPtr spawn_timer_;
