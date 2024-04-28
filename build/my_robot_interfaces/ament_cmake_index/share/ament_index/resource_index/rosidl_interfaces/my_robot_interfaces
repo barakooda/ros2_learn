@@ -2,6 +2,14 @@ msg/HardwareStatus.idl
 msg/HardwareStatus.msg
 msg/LedStatus.idl
 msg/LedStatus.msg
+msg/Turtle.idl
+msg/Turtle.msg
+msg/TurtleArray.idl
+msg/TurtleArray.msg
+srv/CatchedTurtle.idl
+srv/CatchedTurtle.srv
+srv/CatchedTurtle_Request.msg
+srv/CatchedTurtle_Response.msg
 srv/SetLed.idl
 srv/SetLed.srv
 srv/SetLed_Request.msg

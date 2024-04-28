@@ -1,9 +1,0 @@
-[ 27%] Built target number_publisher
-[ 27%] Built target smartphone
-[ 50%] Built target add_two_ints_client
-[ 61%] Built target add_two_ints_server
-[ 61%] Built target number_counter
-[ 66%] Built target robot_news_station
-[ 77%] Built target cpp_node
-[ 88%] Built target add_two_ints_client_no_opp
-[ 94%] [32m[1mLinking CXX executable hardware_status_publisher[0m

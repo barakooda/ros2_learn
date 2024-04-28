@@ -1,3 +1,0 @@
-#TurtleArray.msg
-
-Turtle[] turtles

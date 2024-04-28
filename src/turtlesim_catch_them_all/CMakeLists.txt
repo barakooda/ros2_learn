@@ -15,23 +15,16 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(turtlesim REQUIRED)
-find_package(rosidl_default_generators REQUIRED)
+find_package(my_robot_interfaces REQUIRED)
 
-# Generate messages in the 'msg' folder
-rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/Turtle.msg"
-  "msg/TurtleArray.msg"
-)
-
-# Ensure all nodes in the package have access to the generated messages
-ament_export_dependencies(rosidl_default_runtime)
 
 # Declare a C++ executable
 add_executable(turtle_controller src/turtle_controller.cpp)
-ament_target_dependencies(turtle_controller rclcpp geometry_msgs turtlesim)
+ament_target_dependencies(turtle_controller rclcpp geometry_msgs turtlesim my_robot_interfaces)
 
 add_executable(turtle_spawner src/turtle_spawner.cpp)
-ament_target_dependencies(turtle_spawner rclcpp geometry_msgs turtlesim)
+ament_target_dependencies(turtle_spawner rclcpp geometry_msgs turtlesim my_robot_interfaces)
+
 
 # Install the executables
 install(TARGETS

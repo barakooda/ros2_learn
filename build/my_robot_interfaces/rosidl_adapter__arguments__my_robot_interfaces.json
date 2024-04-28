@@ -3,6 +3,9 @@
   "non_idl_tuples": [
     "/home/barakooda/ros2_ws/src/my_robot_interfaces:msg/HardwareStatus.msg",
     "/home/barakooda/ros2_ws/src/my_robot_interfaces:msg/LedStatus.msg",
+    "/home/barakooda/ros2_ws/src/my_robot_interfaces:msg/Turtle.msg",
+    "/home/barakooda/ros2_ws/src/my_robot_interfaces:msg/TurtleArray.msg",
+    "/home/barakooda/ros2_ws/src/my_robot_interfaces:srv/CatchedTurtle.srv",
     "/home/barakooda/ros2_ws/src/my_robot_interfaces:srv/SetLed.srv"
   ]
 }

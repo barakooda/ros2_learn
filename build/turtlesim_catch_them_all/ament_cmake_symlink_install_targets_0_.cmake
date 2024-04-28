@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/barakooda/ros2_ws/build/turtlesim_catch_them_all/turtle_controller" "/home/barakooda/ros2_ws/build/turtlesim_catch_them_all/turtle_spawner" "TARGETS" "turtle_controller" "turtle_spawner" "DESTINATION" "lib/turtlesim_catch_them_all")

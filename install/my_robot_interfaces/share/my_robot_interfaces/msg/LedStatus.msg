@@ -1,1 +1,1 @@
-bool[3] led_status
+/home/barakooda/ros2_ws/src/my_robot_interfaces/msg/LedStatus.msg

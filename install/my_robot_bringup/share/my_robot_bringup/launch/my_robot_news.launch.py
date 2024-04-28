@@ -1,1 +1,0 @@
-/home/barakooda/ros2_ws/src/my_robot_bringup/launch/my_robot_news.launch.py

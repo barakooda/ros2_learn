@@ -1,9 +1,0 @@
-/home/barakooda/ros2_ws/build/my_robot_starter/CMakeFiles/uninstall.dir
-/home/barakooda/ros2_ws/build/my_robot_starter/CMakeFiles/my_robot_starter_uninstall.dir
-/home/barakooda/ros2_ws/build/my_robot_starter/CMakeFiles/test.dir
-/home/barakooda/ros2_ws/build/my_robot_starter/CMakeFiles/edit_cache.dir
-/home/barakooda/ros2_ws/build/my_robot_starter/CMakeFiles/rebuild_cache.dir
-/home/barakooda/ros2_ws/build/my_robot_starter/CMakeFiles/list_install_components.dir
-/home/barakooda/ros2_ws/build/my_robot_starter/CMakeFiles/install.dir
-/home/barakooda/ros2_ws/build/my_robot_starter/CMakeFiles/install/local.dir
-/home/barakooda/ros2_ws/build/my_robot_starter/CMakeFiles/install/strip.dir

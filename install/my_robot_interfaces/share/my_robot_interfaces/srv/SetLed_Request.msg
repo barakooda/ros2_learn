@@ -1,2 +1,1 @@
-uint8 led_number
-bool state
+/home/barakooda/ros2_ws/build/my_robot_interfaces/rosidl_cmake/srv/SetLed_Request.msg

@@ -1,0 +1,27 @@
+[0.022s] Invoking command in '/home/barakooda/ros2_ws/build/turtlesim_catch_them_all': CMAKE_PREFIX_PATH=/home/barakooda/ros2_ws/install/my_robot_interfaces:/home/barakooda/ros2_ws/install/turtlesim_catch_them_all:/home/barakooda/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/barakooda/ros2_ws/build/turtlesim_catch_them_all -- -j6 -l6
+[0.089s] [ 50%] Built target turtle_spawner
+[0.091s] [ 75%] [32mBuilding CXX object CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o[0m
+[9.149s] [100%] [32m[1mLinking CXX executable turtle_controller[0m
+[9.592s] [100%] Built target turtle_controller
+[9.608s] Invoked command in '/home/barakooda/ros2_ws/build/turtlesim_catch_them_all' returned '0': CMAKE_PREFIX_PATH=/home/barakooda/ros2_ws/install/my_robot_interfaces:/home/barakooda/ros2_ws/install/turtlesim_catch_them_all:/home/barakooda/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/barakooda/ros2_ws/build/turtlesim_catch_them_all -- -j6 -l6
+[9.703s] Invoking command in '/home/barakooda/ros2_ws/build/turtlesim_catch_them_all': CMAKE_PREFIX_PATH=/home/barakooda/ros2_ws/install/my_robot_interfaces:/home/barakooda/ros2_ws/install/turtlesim_catch_them_all:/home/barakooda/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/barakooda/ros2_ws/build/turtlesim_catch_them_all
+[9.711s] -- Install configuration: ""
+[9.712s] -- Execute custom install script
+[9.712s] -- Up-to-date symlink: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all/turtle_controller
+[9.713s] -- Up-to-date symlink: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all/turtle_spawner
+[9.714s] -- Up-to-date symlink: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/ament_index/resource_index/package_run_dependencies/turtlesim_catch_them_all
+[9.714s] -- Up-to-date symlink: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/ament_index/resource_index/parent_prefix_path/turtlesim_catch_them_all
+[9.715s] -- Up-to-date symlink: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/environment/ament_prefix_path.sh
+[9.715s] -- Up-to-date symlink: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/environment/ament_prefix_path.dsv
+[9.716s] -- Up-to-date symlink: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/environment/path.sh
+[9.716s] -- Up-to-date symlink: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/environment/path.dsv
+[9.717s] -- Up-to-date symlink: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/local_setup.bash
+[9.718s] -- Up-to-date symlink: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/local_setup.sh
+[9.718s] -- Up-to-date symlink: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/local_setup.zsh
+[9.719s] -- Up-to-date symlink: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/local_setup.dsv
+[9.719s] -- Symlinking: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/package.dsv
+[9.728s] -- Up-to-date symlink: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/ament_index/resource_index/packages/turtlesim_catch_them_all
+[9.729s] -- Up-to-date symlink: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/cmake/turtlesim_catch_them_allConfig.cmake
+[9.730s] -- Up-to-date symlink: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/cmake/turtlesim_catch_them_allConfig-version.cmake
+[9.730s] -- Up-to-date symlink: /home/barakooda/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/package.xml
+[9.733s] Invoked command in '/home/barakooda/ros2_ws/build/turtlesim_catch_them_all' returned '0': CMAKE_PREFIX_PATH=/home/barakooda/ros2_ws/install/my_robot_interfaces:/home/barakooda/ros2_ws/install/turtlesim_catch_them_all:/home/barakooda/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/barakooda/ros2_ws/build/turtlesim_catch_them_all

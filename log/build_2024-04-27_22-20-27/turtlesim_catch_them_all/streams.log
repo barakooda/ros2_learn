@@ -1,0 +1,263 @@
+[0.012s] Invoking command in '/home/barakooda/ros2_ws/build/turtlesim_catch_them_all': AMENT_PREFIX_PATH=/home/barakooda/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/barakooda/ros2_ws/install/my_robot_interfaces:/home/barakooda/ros2_ws/install/turtlesim_catch_them_all:/home/barakooda/ros2_ws/install/my_robot_starter:/home/barakooda/ros2_ws/install/my_robot_bringup:/home/barakooda/ros2_ws/install/my_cpp_pkg:/home/barakooda/install/my_cpp_pkg:/home/barakooda/install/my_robot_interfaces:/home/barakooda/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/barakooda/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/barakooda/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/barakooda/ros2_ws/src/turtlesim_catch_them_all -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/barakooda/ros2_ws/install/turtlesim_catch_them_all
+[0.147s] -- The C compiler identification is GNU 11.4.0
+[0.269s] -- The CXX compiler identification is GNU 11.4.0
+[0.275s] -- Detecting C compiler ABI info
+[0.475s] -- Detecting C compiler ABI info - done
+[0.479s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.479s] -- Detecting C compile features
+[0.479s] -- Detecting C compile features - done
+[0.481s] -- Detecting CXX compiler ABI info
+[0.658s] -- Detecting CXX compiler ABI info - done
+[0.665s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.665s] -- Detecting CXX compile features
+[0.666s] -- Detecting CXX compile features - done
+[0.666s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.858s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.907s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.926s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.953s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.956s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.961s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.972s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.011s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.063s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.065s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.241s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.262s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.326s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.335s] -- Looking for pthread.h
+[1.449s] -- Looking for pthread.h - found
+[1.450s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.600s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.601s] -- Found Threads: TRUE  
+[1.740s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.776s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[1.882s] -- Found my_robot_interfaces: 0.0.0 (/home/barakooda/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[1.965s] -- Configuring done
+[1.976s] -- Generating done
+[1.978s] -- Build files have been written to: /home/barakooda/ros2_ws/build/turtlesim_catch_them_all
+[1.994s] Invoked command in '/home/barakooda/ros2_ws/build/turtlesim_catch_them_all' returned '0': AMENT_PREFIX_PATH=/home/barakooda/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/barakooda/ros2_ws/install/my_robot_interfaces:/home/barakooda/ros2_ws/install/turtlesim_catch_them_all:/home/barakooda/ros2_ws/install/my_robot_starter:/home/barakooda/ros2_ws/install/my_robot_bringup:/home/barakooda/ros2_ws/install/my_cpp_pkg:/home/barakooda/install/my_cpp_pkg:/home/barakooda/install/my_robot_interfaces:/home/barakooda/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/barakooda/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/barakooda/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/barakooda/ros2_ws/src/turtlesim_catch_them_all -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/barakooda/ros2_ws/install/turtlesim_catch_them_all
+[1.995s] Invoking command in '/home/barakooda/ros2_ws/build/turtlesim_catch_them_all': AMENT_PREFIX_PATH=/home/barakooda/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/barakooda/ros2_ws/install/my_robot_interfaces:/home/barakooda/ros2_ws/install/turtlesim_catch_them_all:/home/barakooda/ros2_ws/install/my_robot_starter:/home/barakooda/ros2_ws/install/my_robot_bringup:/home/barakooda/ros2_ws/install/my_cpp_pkg:/home/barakooda/install/my_cpp_pkg:/home/barakooda/install/my_robot_interfaces:/home/barakooda/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/barakooda/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/barakooda/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/barakooda/ros2_ws/build/turtlesim_catch_them_all -- -j6 -l6
+[2.097s] [ 25%] [32mBuilding CXX object CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o[0m
+[2.175s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_spawner.dir/src/turtle_spawner.cpp.o[0m
+[2.433s] [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:3:10:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+[2.543s]     3 | #include [01;35m[K"[m[Kmy_robot_interfaces/srv/
+[2.543s]       |          [01;35m[K^[m[K
+[2.543s] [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:3:10:[m[K [01;31m[Kerror: [m[K#include expects "FILENAME" or <FILENAME>
+[2.543s]     3 | #include [01;31m[K"my_robot_interfaces/srv/[m[K
+[2.543s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.754s] [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:46:42:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kmy_robot_interfaces[m[K’
+[5.754s]    46 |     rclcpp::Service<my_robot_interfaces::[01;31m[Ksrv[m[K::CatchedTurtle>::SharedPtr catched_turtle_service_;
+[5.754s]       |                                          [01;31m[K^~~[m[K
+[5.754s] [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:46:42:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[5.754s] In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+[5.754s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+[5.754s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+[5.754s]                  from [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:1[m[K:
+[5.754s] [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::srv[m[K’
+[5.754s]    27 | namespace [01;36m[Ksrv[m[K
+[5.754s]       |           [01;36m[K^~~[m[K
+[5.781s] In file included from [01m[K/opt/ros/humble/include/turtlesim/turtlesim/srv/spawn.hpp:7[m[K,
+[5.781s]                  from [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:2[m[K:
+[5.781s] [01m[K/opt/ros/humble/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kturtlesim::srv[m[K’
+[5.781s]    27 | namespace [01;36m[Ksrv[m[K
+[5.781s]       |           [01;36m[K^~~[m[K
+[5.781s] [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:46:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.781s]    46 |     rclcpp::Service<my_robot_interfaces::srv::CatchedTurtle[01;31m[K>[m[K::SharedPtr catched_turtle_service_;
+[5.781s]       |                                                            [01;31m[K^[m[K
+[5.781s] [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:46:63:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[5.781s]    46 |     rclcpp::Service<my_robot_interfaces::srv::CatchedTurtle>::[01;31m[KSharedPtr[m[K catched_turtle_service_;
+[5.781s]       |                                                               [01;31m[K^~~~~~~~~[m[K
+[5.781s]       |                                                                        [32m[K;[m[K
+[5.782s] [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:46:73:[m[K [01;31m[Kerror: [m[K‘[01m[Kcatched_turtle_service_[m[K’ does not name a type
+[5.782s]    46 |     rclcpp::Service<my_robot_interfaces::srv::CatchedTurtle>::SharedPtr [01;31m[Kcatched_turtle_service_[m[K;
+[5.782s]       |                                                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.785s] [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:92:67:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kmy_robot_interfaces[m[K’
+[5.785s]    92 |     void catchedTurtle(const std::shared_ptr<my_robot_interfaces::[01;31m[Ksrv[m[K::CatchedTurtle::Request> request,
+[5.785s]       |                                                                   [01;31m[K^~~[m[K
+[5.785s] [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:92:67:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[5.785s] In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+[5.785s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+[5.785s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+[5.785s]                  from [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:1[m[K:
+[5.785s] [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::srv[m[K’
+[5.785s]    27 | namespace [01;36m[Ksrv[m[K
+[5.785s]       |           [01;36m[K^~~[m[K
+[5.786s] In file included from [01m[K/opt/ros/humble/include/turtlesim/turtlesim/srv/spawn.hpp:7[m[K,
+[5.786s]                  from [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:2[m[K:
+[5.786s] [01m[K/opt/ros/humble/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kturtlesim::srv[m[K’
+[5.786s]    27 | namespace [01;36m[Ksrv[m[K
+[5.786s]       |           [01;36m[K^~~[m[K
+[5.786s] [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:92:94:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.786s]    92 |     void catchedTurtle(const std::shared_ptr<my_robot_interfaces::srv::CatchedTurtle::Request[01;31m[K>[m[K request,
+[5.786s]       |                                                                                              [01;31m[K^[m[K
+[5.790s] [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:92:67:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kmy_robot_interfaces[m[K’
+[5.791s]    92 |     void catchedTurtle(const std::shared_ptr<my_robot_interfaces::[01;31m[Ksrv[m[K::CatchedTurtle::Request> request,
+[5.791s]       |                                                                   [01;31m[K^~~[m[K
+[5.791s] [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:92:67:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[5.791s] In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+[5.792s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+[5.792s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+[5.792s]                  from [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:1[m[K:
+[5.792s] [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::srv[m[K’
+[5.792s]    27 | namespace [01;36m[Ksrv[m[K
+[5.792s]       |           [01;36m[K^~~[m[K
+[5.793s] In file included from [01m[K/opt/ros/humble/include/turtlesim/turtlesim/srv/spawn.hpp:7[m[K,
+[5.793s]                  from [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:2[m[K:
+[5.793s] [01m[K/opt/ros/humble/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kturtlesim::srv[m[K’
+[5.793s]    27 | namespace [01;36m[Ksrv[m[K
+[5.794s]       |           [01;36m[K^~~[m[K
+[5.794s] [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:92:94:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.794s]    92 |     void catchedTurtle(const std::shared_ptr<my_robot_interfaces::srv::CatchedTurtle::Request[01;31m[K>[m[K request,
+[5.795s]       |                                                                                              [01;31m[K^[m[K
+[5.810s] [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:92:67:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kmy_robot_interfaces[m[K’
+[5.810s]    92 |     void catchedTurtle(const std::shared_ptr<my_robot_interfaces::[01;31m[Ksrv[m[K::CatchedTurtle::Request> request,
+[5.810s]       |                                                                   [01;31m[K^~~[m[K
+[5.810s] [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:92:67:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[5.814s] In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+[5.814s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+[5.814s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+[5.815s]                  from [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:1[m[K:
+[5.815s] [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::srv[m[K’
+[5.824s]    27 | namespace [01;36m[Ksrv[m[K
+[5.825s]       |           [01;36m[K^~~[m[K
+[5.825s] In file included from [01m[K/opt/ros/humble/include/turtlesim/turtlesim/srv/spawn.hpp:7[m[K,
+[5.832s]                  from [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:2[m[K:
+[5.832s] [01m[K/opt/ros/humble/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kturtlesim::srv[m[K’
+[5.832s]    27 | namespace [01;36m[Ksrv[m[K
+[5.832s]       |           [01;36m[K^~~[m[K
+[5.833s] [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:92:94:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.833s]    92 |     void catchedTurtle(const std::shared_ptr<my_robot_interfaces::srv::CatchedTurtle::Request[01;31m[K>[m[K request,
+[5.833s]       |                                                                                              [01;31m[K^[m[K
+[5.833s] [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:92:30:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[5.833s]    92 |     void catchedTurtle(const [01;31m[Kstd[m[K::shared_ptr<my_robot_interfaces::srv::CatchedTurtle::Request> request,
+[5.833s]       |                              [01;31m[K^~~[m[K
+[5.834s] [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:92:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_robot_interfaces::srv[m[K’ has not been declared
+[5.834s]    92 |     void catchedTurtle(const std::shared_ptr<my_robot_interfaces::[01;31m[Ksrv[m[K::CatchedTurtle::Request> request,
+[5.834s]       |                                                                   [01;31m[K^~~[m[K
+[5.834s] [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:92:24:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+[5.835s]    92 |     void catchedTurtle([01;31m[Kconst[m[K std::shared_ptr<my_robot_interfaces::srv::CatchedTurtle::Request> request,
+[5.835s]       |                        [01;31m[K^~~~~[m[K
+[5.835s] [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:93:62:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kmy_robot_interfaces[m[K’
+[5.835s]    93 |                         std::shared_ptr<my_robot_interfaces::[01;31m[Ksrv[m[K::CatchedTurtle::Response> response)
+[5.835s]       |                                                              [01;31m[K^~~[m[K
+[5.835s] [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:93:62:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[5.835s] In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+[5.835s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+[5.835s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+[5.835s]                  from [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:1[m[K:
+[5.835s] [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::srv[m[K’
+[5.835s]    27 | namespace [01;36m[Ksrv[m[K
+[5.835s]       |           [01;36m[K^~~[m[K
+[5.836s] In file included from [01m[K/opt/ros/humble/include/turtlesim/turtlesim/srv/spawn.hpp:7[m[K,
+[5.836s]                  from [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:2[m[K:
+[5.836s] [01m[K/opt/ros/humble/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kturtlesim::srv[m[K’
+[5.836s]    27 | namespace [01;36m[Ksrv[m[K
+[5.836s]       |           [01;36m[K^~~[m[K
+[5.836s] [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:93:90:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.836s]    93 |                         std::shared_ptr<my_robot_interfaces::srv::CatchedTurtle::Response[01;31m[K>[m[K response)
+[5.836s]       |                                                                                          [01;31m[K^[m[K
+[5.836s] [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:93:62:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kmy_robot_interfaces[m[K’
+[5.836s]    93 |                         std::shared_ptr<my_robot_interfaces::[01;31m[Ksrv[m[K::CatchedTurtle::Response> response)
+[5.836s]       |                                                              [01;31m[K^~~[m[K
+[5.836s] [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:93:62:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[5.836s] In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+[5.836s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+[5.836s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+[5.838s]                  from [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:1[m[K:
+[5.838s] [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::srv[m[K’
+[5.838s]    27 | namespace [01;36m[Ksrv[m[K
+[5.838s]       |           [01;36m[K^~~[m[K
+[5.838s] In file included from [01m[K/opt/ros/humble/include/turtlesim/turtlesim/srv/spawn.hpp:7[m[K,
+[5.838s]                  from [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:2[m[K:
+[5.838s] [01m[K/opt/ros/humble/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kturtlesim::srv[m[K’
+[5.838s]    27 | namespace [01;36m[Ksrv[m[K
+[5.838s]       |           [01;36m[K^~~[m[K
+[5.838s] [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:93:90:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.838s]    93 |                         std::shared_ptr<my_robot_interfaces::srv::CatchedTurtle::Response[01;31m[K>[m[K response)
+[5.838s]       |                                                                                          [01;31m[K^[m[K
+[5.838s] [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:93:62:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kmy_robot_interfaces[m[K’
+[5.838s]    93 |                         std::shared_ptr<my_robot_interfaces::[01;31m[Ksrv[m[K::CatchedTurtle::Response> response)
+[5.838s]       |                                                              [01;31m[K^~~[m[K
+[5.838s] [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:93:62:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[5.838s] In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+[5.838s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+[5.839s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+[5.839s]                  from [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:1[m[K:
+[5.839s] [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::srv[m[K’
+[5.839s]    27 | namespace [01;36m[Ksrv[m[K
+[5.839s]       |           [01;36m[K^~~[m[K
+[5.839s] In file included from [01m[K/opt/ros/humble/include/turtlesim/turtlesim/srv/spawn.hpp:7[m[K,
+[5.839s]                  from [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:2[m[K:
+[5.839s] [01m[K/opt/ros/humble/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kturtlesim::srv[m[K’
+[5.839s]    27 | namespace [01;36m[Ksrv[m[K
+[5.839s]       |           [01;36m[K^~~[m[K
+[5.839s] [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:93:90:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.839s]    93 |                         std::shared_ptr<my_robot_interfaces::srv::CatchedTurtle::Response[01;31m[K>[m[K response)
+[5.839s]       |                                                                                          [01;31m[K^[m[K
+[5.839s] [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:93:25:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[5.839s]    93 |                         [01;31m[Kstd[m[K::shared_ptr<my_robot_interfaces::srv::CatchedTurtle::Response> response)
+[5.839s]       |                         [01;31m[K^~~[m[K
+[5.839s] [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:93:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_robot_interfaces::srv[m[K’ has not been declared
+[5.839s]    93 |                         std::shared_ptr<my_robot_interfaces::[01;31m[Ksrv[m[K::CatchedTurtle::Response> response)
+[5.839s]       |                                                              [01;31m[K^~~[m[K
+[5.839s] [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:93:25:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+[5.839s]    93 |                         [01;31m[Kstd[m[K::shared_ptr<my_robot_interfaces::srv::CatchedTurtle::Response> response)
+[5.839s]       |                         [01;31m[K^~~[m[K
+[5.857s] [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:[m[K In constructor ‘[01m[KTurtleSpawner::TurtleSpawner()[m[K’:
+[5.857s] [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:27:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcatched_turtle_service_[m[K’ was not declared in this scope
+[5.858s]    27 |         [01;31m[Kcatched_turtle_service_[m[K = this->create_service<my_robot_interfaces::srv::CatchedTurtle>("catched_turtle", std::bind(&TurtleSpawner::catchedTurtle, this, std::placeholders::_1, std::placeholders::_2));
+[5.863s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.863s] [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:27:77:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kmy_robot_interfaces[m[K’
+[5.863s]    27 |         catched_turtle_service_ = this->create_service<my_robot_interfaces::[01;31m[Ksrv[m[K::CatchedTurtle>("catched_turtle", std::bind(&TurtleSpawner::catchedTurtle, this, std::placeholders::_1, std::placeholders::_2));
+[5.863s]       |                                                                             [01;31m[K^~~[m[K
+[5.864s] [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:27:77:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[5.864s] In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+[5.864s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+[5.864s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+[5.864s]                  from [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:1[m[K:
+[5.864s] [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::srv[m[K’
+[5.864s]    27 | namespace [01;36m[Ksrv[m[K
+[5.864s]       |           [01;36m[K^~~[m[K
+[5.864s] In file included from [01m[K/opt/ros/humble/include/turtlesim/turtlesim/srv/spawn.hpp:7[m[K,
+[5.864s]                  from [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:2[m[K:
+[5.864s] [01m[K/opt/ros/humble/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kturtlesim::srv[m[K’
+[5.864s]    27 | namespace [01;36m[Ksrv[m[K
+[5.865s]       |           [01;36m[K^~~[m[K
+[5.865s] [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:27:41:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[5.865s]    27 |         catched_turtle_service_ = this->[01;31m[Kcreate_service<my_robot_interfaces::srv::CatchedTurtle>[m[K("catched_turtle", std::bind(&TurtleSpawner::catchedTurtle, this, std::placeholders::_1, std::placeholders::_2));
+[5.865s]       |                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.865s] [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:27:96:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTurtleSpawner::create_service<<expression error> >(const char [15], std::_Bind_helper<false, void (TurtleSpawner::*)(...), TurtleSpawner*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type)[m[K’
+[5.865s]    27 |         catched_turtle_service_ = [01;31m[Kthis->create_service<my_robot_interfaces::srv::CatchedTurtle>("catched_turtle", std::bind(&TurtleSpawner::catchedTurtle, this, std::placeholders::_1, std::placeholders::_2))[m[K;
+[5.865s]       |                                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.865s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[5.865s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[5.865s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.865s]                  from [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:1[m[K:
+[5.865s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[5.865s]   267 |   [01;36m[Kcreate_service[m[K(
+[5.865s]       |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[5.865s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.865s] [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:27:96:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.865s]    27 |         catched_turtle_service_ = [01;31m[Kthis->create_service<my_robot_interfaces::srv::CatchedTurtle>("catched_turtle", std::bind(&TurtleSpawner::catchedTurtle, this, std::placeholders::_1, std::placeholders::_2))[m[K;
+[5.865s]       |                                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.871s] [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:[m[K In member function ‘[01m[Kvoid TurtleSpawner::catchedTurtle(...)[m[K’:
+[5.871s] [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:95:33:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kturtlesim::srv::Spawn::Request[m[K’ {aka ‘[01m[Kturtlesim::srv::Spawn_Request_<std::allocator<void> >[m[K’}
+[5.871s]    95 |         if (turtles.find(request[01;31m[K->[m[Kname) != turtles.end())
+[5.871s]       |                                 [01;31m[K^~[m[K
+[5.871s] [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:97:34:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kturtlesim::srv::Spawn::Request[m[K’ {aka ‘[01m[Kturtlesim::srv::Spawn_Request_<std::allocator<void> >[m[K’}
+[5.871s]    97 |             turtles.erase(request[01;31m[K->[m[Kname);
+[5.871s]       |                                  [01;31m[K^~[m[K
+[5.876s] [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:98:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kresponse[m[K’ was not declared in this scope
+[5.876s]    98 |             [01;31m[Kresponse[m[K->success = true;
+[5.876s]       |             [01;31m[K^~~~~~~~[m[K
+[5.882s] [01m[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:102:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kresponse[m[K’ was not declared in this scope
+[5.882s]   102 |             [01;31m[Kresponse[m[K->success = false;
+[5.882s]       |             [01;31m[K^~~~~~~~[m[K
+[7.522s] gmake[2]: *** [CMakeFiles/turtle_spawner.dir/build.make:76: CMakeFiles/turtle_spawner.dir/src/turtle_spawner.cpp.o] Error 1
+[7.523s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/turtle_spawner.dir/all] Error 2
+[7.523s] gmake[1]: *** Waiting for unfinished jobs....
+[13.676s] [ 75%] [32m[1mLinking CXX executable turtle_controller[0m
+[14.109s] [ 75%] Built target turtle_controller
+[14.111s] gmake: *** [Makefile:146: all] Error 2
+[14.115s] Invoked command in '/home/barakooda/ros2_ws/build/turtlesim_catch_them_all' returned '2': AMENT_PREFIX_PATH=/home/barakooda/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/barakooda/ros2_ws/install/my_robot_interfaces:/home/barakooda/ros2_ws/install/turtlesim_catch_them_all:/home/barakooda/ros2_ws/install/my_robot_starter:/home/barakooda/ros2_ws/install/my_robot_bringup:/home/barakooda/ros2_ws/install/my_cpp_pkg:/home/barakooda/install/my_cpp_pkg:/home/barakooda/install/my_robot_interfaces:/home/barakooda/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/barakooda/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/barakooda/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/barakooda/ros2_ws/build/turtlesim_catch_them_all -- -j6 -l6

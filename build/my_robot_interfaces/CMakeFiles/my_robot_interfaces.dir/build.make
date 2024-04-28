@@ -68,6 +68,11 @@ include CMakeFiles/my_robot_interfaces.dir/progress.make
 
 CMakeFiles/my_robot_interfaces: /home/barakooda/ros2_ws/src/my_robot_interfaces/msg/HardwareStatus.msg
 CMakeFiles/my_robot_interfaces: /home/barakooda/ros2_ws/src/my_robot_interfaces/msg/LedStatus.msg
+CMakeFiles/my_robot_interfaces: /home/barakooda/ros2_ws/src/my_robot_interfaces/msg/Turtle.msg
+CMakeFiles/my_robot_interfaces: /home/barakooda/ros2_ws/src/my_robot_interfaces/msg/TurtleArray.msg
+CMakeFiles/my_robot_interfaces: /home/barakooda/ros2_ws/src/my_robot_interfaces/srv/CatchedTurtle.srv
+CMakeFiles/my_robot_interfaces: rosidl_cmake/srv/CatchedTurtle_Request.msg
+CMakeFiles/my_robot_interfaces: rosidl_cmake/srv/CatchedTurtle_Response.msg
 CMakeFiles/my_robot_interfaces: /home/barakooda/ros2_ws/src/my_robot_interfaces/srv/SetLed.srv
 CMakeFiles/my_robot_interfaces: rosidl_cmake/srv/SetLed_Request.msg
 CMakeFiles/my_robot_interfaces: rosidl_cmake/srv/SetLed_Response.msg

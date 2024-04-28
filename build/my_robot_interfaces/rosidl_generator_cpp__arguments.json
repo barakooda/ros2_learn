@@ -5,6 +5,9 @@
   "idl_tuples": [
     "/home/barakooda/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/HardwareStatus.idl",
     "/home/barakooda/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/LedStatus.idl",
+    "/home/barakooda/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/Turtle.idl",
+    "/home/barakooda/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/TurtleArray.idl",
+    "/home/barakooda/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/CatchedTurtle.idl",
     "/home/barakooda/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/SetLed.idl"
   ],
   "target_dependencies": [
@@ -25,6 +28,9 @@
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
     "/home/barakooda/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/HardwareStatus.idl",
     "/home/barakooda/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/LedStatus.idl",
+    "/home/barakooda/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/Turtle.idl",
+    "/home/barakooda/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/TurtleArray.idl",
+    "/home/barakooda/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/CatchedTurtle.idl",
     "/home/barakooda/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/SetLed.idl"
   ]
 }
