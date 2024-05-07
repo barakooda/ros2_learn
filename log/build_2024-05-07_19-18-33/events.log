@@ -1,0 +1,157 @@
+[0.000000] (-) TimerEvent: {}
+[0.000870] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.001010] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.001313] (-) JobUnselected: {'identifier': 'my_robot_bringup'}
+[0.001536] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.001670] (-) JobUnselected: {'identifier': 'my_robot_starter'}
+[0.002337] (turtlesim_catch_them_all) JobQueued: {'identifier': 'turtlesim_catch_them_all', 'dependencies': OrderedDict([('my_robot_interfaces', '/home/barakooda/ros2_ws/install/my_robot_interfaces')])}
+[0.002490] (turtlesim_catch_them_all) JobStarted: {'identifier': 'turtlesim_catch_them_all'}
+[0.016568] (turtlesim_catch_them_all) JobProgress: {'identifier': 'turtlesim_catch_them_all', 'progress': 'cmake'}
+[0.025478] (turtlesim_catch_them_all) JobProgress: {'identifier': 'turtlesim_catch_them_all', 'progress': 'build'}
+[0.025648] (turtlesim_catch_them_all) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/barakooda/ros2_ws/build/turtlesim_catch_them_all', '--', '-j8', '-l8'], 'cwd': '/home/barakooda/ros2_ws/build/turtlesim_catch_them_all', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IL:en'), ('USER', 'barakooda'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/barakooda/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/barakooda'), ('OLDPWD', '/home/barakooda'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1207'), ('SYSTEMD_EXEC_PID', '1384'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4150'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/barakooda/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'barakooda'), ('JOURNAL_STREAM', '8:22242'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'barakooda'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vm:@/tmp/.ICE-unix/1349,unix/vm:/tmp/.ICE-unix/1349'), ('INVOCATION_ID', 'e4009c6faf1e4e5cb4afb8a905e57bf3'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_IL.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4GOAN2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/barakooda/ros2_ws/install/turtlesim_catch_them_all:/home/barakooda/ros2_ws/install/my_robot_interfaces:/home/barakooda/ros2_ws/install/my_py_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:9d4a7b1d-61db-4ad2-9740-6b95f53e1caf'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/barakooda/ros2_ws/build/turtlesim_catch_them_all'), ('LC_ALL', 'en_IL.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/barakooda/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/barakooda/ros2_ws/build/my_py_pkg:/home/barakooda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/barakooda/ros2_ws/install/my_robot_interfaces:/home/barakooda/ros2_ws/install/turtlesim_catch_them_all:/home/barakooda/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.099164] (-) TimerEvent: {}
+[0.112030] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/turtle_spawner.dir/src/turtle_spawner.cpp.o\x1b[0m\n'}
+[0.113045] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o\x1b[0m\n'}
+[1.118207] (-) TimerEvent: {}
+[1.218880] (-) TimerEvent: {}
+[1.321082] (-) TimerEvent: {}
+[1.427000] (-) TimerEvent: {}
+[1.528901] (-) TimerEvent: {}
+[1.641231] (-) TimerEvent: {}
+[1.759703] (-) TimerEvent: {}
+[2.110473] (-) TimerEvent: {}
+[2.211378] (-) TimerEvent: {}
+[2.316076] (-) TimerEvent: {}
+[2.419379] (-) TimerEvent: {}
+[2.522863] (-) TimerEvent: {}
+[2.616278] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[2.616599] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[2.616707] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:64\x1b[m\x1b[K,\n'}
+[2.616807] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[2.616909] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:1\x1b[m\x1b[K:\n'}
+[2.617010] (turtlesim_catch_them_all) StderrLine: {'line': b'/usr/include/c++/11/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = turtlesim::srv::Kill_Request_<std::allocator<void> >; _Args = {std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&}; _Tp = turtlesim::srv::Kill_Request_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.617108] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = turtlesim::srv::Kill_Request_<std::allocator<void> >; _Args = {std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&}; _Tp = turtlesim::srv::Kill_Request_<std::allocator<void> >; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<turtlesim::srv::Kill_Request_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.617409] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&}; _Tp = turtlesim::srv::Kill_Request_<std::allocator<void> >; _Alloc = std::allocator<turtlesim::srv::Kill_Request_<std::allocator<void> > >; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.617511] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = turtlesim::srv::Kill_Request_<std::allocator<void> >; _Alloc = std::allocator<turtlesim::srv::Kill_Request_<std::allocator<void> > >; _Args = {std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.617613] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<turtlesim::srv::Kill_Request_<std::allocator<void> > >; _Args = {std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&}; _Tp = turtlesim::srv::Kill_Request_<std::allocator<void> >; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.617710] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<turtlesim::srv::Kill_Request_<std::allocator<void> > >; _Args = {std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&}; _Tp = turtlesim::srv::Kill_Request_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.617807] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = turtlesim::srv::Kill_Request_<std::allocator<void> >; _Alloc = std::allocator<turtlesim::srv::Kill_Request_<std::allocator<void> > >; _Args = {std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.617910] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = turtlesim::srv::Kill_Request_<std::allocator<void> >; _Args = {std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.618018] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:98:83:\x1b[m\x1b[K   required from here\n'}
+[2.618189] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kturtlesim::srv::Kill_Request_<std::allocator<void> >::Kill_Request_(std::__cxx11::basic_string<char>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.618381] (turtlesim_catch_them_all) StderrLine: {'line': b'  162 |         { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[2.618514] (turtlesim_catch_them_all) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.618624] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/turtlesim/turtlesim/srv/kill.hpp:7\x1b[m\x1b[K,\n'}
+[2.618724] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/barakooda/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:3\x1b[m\x1b[K:\n'}
+[2.618821] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp:45:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kturtlesim::srv::Kill_Request_<ContainerAllocator>::Kill_Request_(const ContainerAllocator&, rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.618931] (turtlesim_catch_them_all) StderrLine: {'line': b'   45 |   explicit \x1b[01;36m\x1b[KKill_Request_\x1b[m\x1b[K(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)\n'}
+[2.619032] (turtlesim_catch_them_all) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.619128] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp:45:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::allocator<void>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.619224] (turtlesim_catch_them_all) StderrLine: {'line': b'   45 |   explicit Kill_Request_(\x1b[01;36m\x1b[Kconst ContainerAllocator & _alloc\x1b[m\x1b[K, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)\n'}
+[2.619321] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[2.619416] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp:36:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kturtlesim::srv::Kill_Request_<ContainerAllocator>::Kill_Request_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.619515] (turtlesim_catch_them_all) StderrLine: {'line': b'   36 |   explicit \x1b[01;36m\x1b[KKill_Request_\x1b[m\x1b[K(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)\n'}
+[2.619611] (turtlesim_catch_them_all) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.619705] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp:36:68:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krosidl_runtime_cpp::MessageInitialization\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.619805] (turtlesim_catch_them_all) StderrLine: {'line': b'   36 |   explicit Kill_Request_(\x1b[01;36m\x1b[Krosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL\x1b[m\x1b[K)\n'}
+[2.619921] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.620028] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp:32:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kturtlesim::srv::Kill_Request_<std::allocator<void> >::Kill_Request_(const turtlesim::srv::Kill_Request_<std::allocator<void> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.620134] (turtlesim_catch_them_all) StderrLine: {'line': b'   32 | struct \x1b[01;36m\x1b[KKill_Request_\x1b[m\x1b[K\n'}
+[2.620233] (turtlesim_catch_them_all) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.620334] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp:32:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst turtlesim::srv::Kill_Request_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.620443] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp:32:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kturtlesim::srv::Kill_Request_<std::allocator<void> >::Kill_Request_(turtlesim::srv::Kill_Request_<std::allocator<void> >&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.620541] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp:32:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kturtlesim::srv::Kill_Request_<std::allocator<void> >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.625240] (-) TimerEvent: {}
+[2.726876] (-) TimerEvent: {}
+[2.830774] (-) TimerEvent: {}
+[3.115158] (-) TimerEvent: {}
+[3.217141] (-) TimerEvent: {}
+[3.330352] (-) TimerEvent: {}
+[3.496682] (-) TimerEvent: {}
+[3.606938] (-) TimerEvent: {}
+[3.607550] (turtlesim_catch_them_all) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/turtle_spawner.dir/build.make:76: CMakeFiles/turtle_spawner.dir/src/turtle_spawner.cpp.o] Error 1\n'}
+[3.608074] (turtlesim_catch_them_all) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/turtle_spawner.dir/all] Error 2\n'}
+[3.608300] (turtlesim_catch_them_all) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[3.707752] (-) TimerEvent: {}
+[3.810030] (-) TimerEvent: {}
+[3.911711] (-) TimerEvent: {}
+[4.012638] (-) TimerEvent: {}
+[4.113435] (-) TimerEvent: {}
+[4.214022] (-) TimerEvent: {}
+[4.314698] (-) TimerEvent: {}
+[4.420472] (-) TimerEvent: {}
+[4.521493] (-) TimerEvent: {}
+[4.622332] (-) TimerEvent: {}
+[4.724261] (-) TimerEvent: {}
+[4.827352] (-) TimerEvent: {}
+[4.928078] (-) TimerEvent: {}
+[5.029664] (-) TimerEvent: {}
+[5.133343] (-) TimerEvent: {}
+[5.234333] (-) TimerEvent: {}
+[5.335641] (-) TimerEvent: {}
+[5.437026] (-) TimerEvent: {}
+[5.537570] (-) TimerEvent: {}
+[5.639672] (-) TimerEvent: {}
+[5.742626] (-) TimerEvent: {}
+[5.847578] (-) TimerEvent: {}
+[5.950160] (-) TimerEvent: {}
+[6.051779] (-) TimerEvent: {}
+[6.154289] (-) TimerEvent: {}
+[6.258250] (-) TimerEvent: {}
+[6.361890] (-) TimerEvent: {}
+[6.463634] (-) TimerEvent: {}
+[6.565313] (-) TimerEvent: {}
+[6.666842] (-) TimerEvent: {}
+[6.769529] (-) TimerEvent: {}
+[6.871173] (-) TimerEvent: {}
+[6.972425] (-) TimerEvent: {}
+[7.073359] (-) TimerEvent: {}
+[7.175435] (-) TimerEvent: {}
+[7.276502] (-) TimerEvent: {}
+[7.378046] (-) TimerEvent: {}
+[7.480218] (-) TimerEvent: {}
+[7.582125] (-) TimerEvent: {}
+[7.684277] (-) TimerEvent: {}
+[7.785073] (-) TimerEvent: {}
+[7.885748] (-) TimerEvent: {}
+[7.986379] (-) TimerEvent: {}
+[8.087199] (-) TimerEvent: {}
+[8.188372] (-) TimerEvent: {}
+[8.290153] (-) TimerEvent: {}
+[8.390905] (-) TimerEvent: {}
+[8.491406] (-) TimerEvent: {}
+[8.594455] (-) TimerEvent: {}
+[8.696432] (-) TimerEvent: {}
+[8.799770] (-) TimerEvent: {}
+[8.901403] (-) TimerEvent: {}
+[9.002719] (-) TimerEvent: {}
+[9.103689] (-) TimerEvent: {}
+[9.204492] (-) TimerEvent: {}
+[9.306330] (-) TimerEvent: {}
+[9.408403] (-) TimerEvent: {}
+[9.509102] (-) TimerEvent: {}
+[9.635508] (-) TimerEvent: {}
+[9.738588] (-) TimerEvent: {}
+[9.844479] (-) TimerEvent: {}
+[9.945913] (-) TimerEvent: {}
+[10.046982] (-) TimerEvent: {}
+[10.148332] (-) TimerEvent: {}
+[10.248938] (-) TimerEvent: {}
+[10.351825] (-) TimerEvent: {}
+[10.454427] (-) TimerEvent: {}
+[10.555028] (-) TimerEvent: {}
+[10.560525] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable turtle_controller\x1b[0m\n'}
+[10.655348] (-) TimerEvent: {}
+[10.756115] (-) TimerEvent: {}
+[10.857066] (-) TimerEvent: {}
+[10.958643] (-) TimerEvent: {}
+[11.061623] (-) TimerEvent: {}
+[11.164660] (-) TimerEvent: {}
+[11.268213] (-) TimerEvent: {}
+[11.340344] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 75%] Built target turtle_controller\n'}
+[11.342282] (turtlesim_catch_them_all) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[11.345442] (turtlesim_catch_them_all) CommandEnded: {'returncode': 2}
+[11.369217] (-) TimerEvent: {}
+[11.481046] (-) TimerEvent: {}
+[11.532073] (turtlesim_catch_them_all) JobEnded: {'identifier': 'turtlesim_catch_them_all', 'rc': 2}
+[11.544666] (-) EventReactorShutdown: {}

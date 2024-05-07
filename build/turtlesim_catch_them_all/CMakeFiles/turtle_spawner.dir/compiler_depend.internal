@@ -670,6 +670,10 @@ CMakeFiles/turtle_spawner.dir/src/turtle_spawner.cpp.o
  /opt/ros/humble/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp
  /opt/ros/humble/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp
  /opt/ros/humble/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp
+ /opt/ros/humble/include/turtlesim/turtlesim/srv/kill.hpp
+ /opt/ros/humble/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp
+ /opt/ros/humble/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp
+ /opt/ros/humble/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp
  /home/barakooda/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/srv/catched_turtle.hpp
  /home/barakooda/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/srv/detail/catched_turtle__struct.hpp
  /home/barakooda/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/srv/detail/catched_turtle__builder.hpp

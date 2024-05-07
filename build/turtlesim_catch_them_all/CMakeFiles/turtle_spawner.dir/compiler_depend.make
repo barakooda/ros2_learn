@@ -669,6 +669,10 @@ CMakeFiles/turtle_spawner.dir/src/turtle_spawner.cpp.o: /home/barakooda/ros2_ws/
   /opt/ros/humble/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp \
   /opt/ros/humble/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp \
   /opt/ros/humble/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp \
+  /opt/ros/humble/include/turtlesim/turtlesim/srv/kill.hpp \
+  /opt/ros/humble/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp \
+  /opt/ros/humble/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp \
+  /opt/ros/humble/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp \
   /home/barakooda/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/srv/catched_turtle.hpp \
   /home/barakooda/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/srv/detail/catched_turtle__struct.hpp \
   /home/barakooda/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/srv/detail/catched_turtle__builder.hpp \
@@ -702,6 +706,10 @@ CMakeFiles/turtle_spawner.dir/src/turtle_spawner.cpp.o: /home/barakooda/ros2_ws/
 /home/barakooda/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/detail/turtle__struct.hpp:
 
 /home/barakooda/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/turtle.hpp:
+
+/opt/ros/humble/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp:
+
+/opt/ros/humble/include/turtlesim/turtlesim/srv/kill.hpp:
 
 /opt/ros/humble/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp:
 
@@ -926,6 +934,8 @@ CMakeFiles/turtle_spawner.dir/src/turtle_spawner.cpp.o: /home/barakooda/ros2_ws/
 /usr/include/ctype.h:
 
 /usr/include/c++/11/locale:
+
+/opt/ros/humble/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp:
 
 /usr/include/c++/11/cctype:
 
@@ -1516,6 +1526,8 @@ CMakeFiles/turtle_spawner.dir/src/turtle_spawner.cpp.o: /home/barakooda/ros2_ws/
 /usr/include/wchar.h:
 
 /usr/include/c++/11/bits/std_mutex.h:
+
+/opt/ros/humble/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp:
 

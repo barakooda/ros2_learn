@@ -3,6 +3,7 @@
 #include "turtlesim/msg/pose.hpp"
 
 #include "my_robot_interfaces/msg/turtle_array.hpp"
+#include "my_robot_interfaces/srv/catched_turtle.hpp"
 
 class TurtleController : public rclcpp::Node // MODIFY NAME
 {
@@ -18,6 +19,8 @@ public:
     
     publisher_ = this->create_publisher<geometry_msgs::msg::Twist>("turtle1/cmd_vel", 10);
 
+    catched_turtle_client_ = this->create_client<my_robot_interfaces::srv::CatchedTurtle>("catched_turtle");
+
     timer_ = this->create_wall_timer(std::chrono::milliseconds(100), std::bind(&TurtleController::moveTurtle, this));
 
     }
@@ -28,6 +31,7 @@ private:
     {
         target_x = msg->turtles[0].x;
         target_y = msg->turtles[0].y;
+        catched_turtle_name_ = msg->turtles[0].name;
 
     }
 
@@ -47,7 +51,7 @@ private:
         }
         
 
-        RCLCPP_INFO(this->get_logger(), "Turtle pose: x=%f, y=%f",  pose_->x,  pose_->y);
+        //RCLCPP_INFO(this->get_logger(), "Turtle pose: x=%f, y=%f",  pose_->x,  pose_->y);
 
         float vel_x = target_x - pose_->x;
         float vel_y = target_y - pose_->y;
@@ -58,6 +62,16 @@ private:
         {
             twist.linear.x = 0.0;
             twist.angular.z = 0.0;
+
+            auto request = std::make_shared<my_robot_interfaces::srv::CatchedTurtle::Request>();
+            request->name = catched_turtle_name_;
+
+            RCLCPP_INFO(this->get_logger(), "Sending request to catch turtle: %s", request->name.c_str());
+            auto result = catched_turtle_client_->async_send_request(request);
+            pose_ = nullptr;
+
+
+
             return;
         }
 
@@ -95,6 +109,9 @@ private:
     rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr publisher_;
     turtlesim::msg::Pose::SharedPtr pose_;
     geometry_msgs::msg::Twist twist;
+
+    rclcpp::Client<my_robot_interfaces::srv::CatchedTurtle>::SharedPtr catched_turtle_client_;
+    std::string catched_turtle_name_ = "";
 };
 
 int main(int argc, char **argv)

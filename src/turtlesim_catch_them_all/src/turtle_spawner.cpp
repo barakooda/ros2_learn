@@ -1,5 +1,6 @@
 #include "rclcpp/rclcpp.hpp"
 #include "turtlesim/srv/spawn.hpp"
+#include "turtlesim/srv/kill.hpp"
 #include "my_robot_interfaces/srv/catched_turtle.hpp"
 #include "my_robot_interfaces/msg/turtle.hpp"
 #include "my_robot_interfaces/msg/turtle_array.hpp"
@@ -24,7 +25,7 @@ public:
         
         client_ = this->create_client<turtlesim::srv::Spawn>("spawn");
         catched_turtle_service_ = this->create_service<my_robot_interfaces::srv::CatchedTurtle>("catched_turtle", std::bind(&TurtleSpawner::catchedTurtle, this, std::placeholders::_1, std::placeholders::_2));
-
+        kill_client_ = this->create_client<turtlesim::srv::Kill>("kill");
         live_turtles_publisher_ = this->create_publisher<my_robot_interfaces::msg::TurtleArray>("live_turtles", 10);
           
     }
@@ -41,6 +42,7 @@ private:
     rclcpp::TimerBase::SharedPtr live_turtles_timer_;
 
     rclcpp::Client<turtlesim::srv::Spawn>::SharedPtr client_;
+    rclcpp::Client<turtlesim::srv::Kill>::SharedPtr kill_client_;
     rclcpp::Publisher<my_robot_interfaces::msg::TurtleArray>::SharedPtr live_turtles_publisher_;
     rclcpp::Service<my_robot_interfaces::srv::CatchedTurtle>::SharedPtr catched_turtle_service_;
 
@@ -90,10 +92,25 @@ private:
     void catchedTurtle(const std::shared_ptr<my_robot_interfaces::srv::CatchedTurtle::Request> request,
                         std::shared_ptr<my_robot_interfaces::srv::CatchedTurtle::Response> response)
     {
+        if (request == nullptr)
+        {
+            return;
+        }   
+
         if (turtles.find(request->name) != turtles.end())
         {
             turtles.erase(request->name);
+            auto turtle_to_kill = std::make_shared<turtlesim::srv::Kill::Request> ();
+            turtle_to_kill->name = request->name;
+            RCLCPP_INFO(this->get_logger(), "Turtle before kill");
+            kill_client_->async_send_request(turtle_to_kill);
+            RCLCPP_INFO(this->get_logger(), "Turtle %s has been catched", request->name.c_str());
             response->success = true;
+
+
+            publishLiveTurtles();
+            
+
         }
         else
         {
