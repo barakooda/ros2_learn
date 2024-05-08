@@ -11,6 +11,15 @@ unsigned int seed = 1;
 std::default_random_engine generator(seed);
 std::uniform_real_distribution<double> dist(0.0, 11.0);
 
+std::string padzeros(int number)
+{
+    std::string text = std::to_string(number);
+    while (text.length() < 3)
+    {
+        text = "0" + text;
+    }
+    return text;
+}
 
 
 class TurtleSpawner : public rclcpp::Node // MODIFY NAME
@@ -65,7 +74,7 @@ private:
         request.y = dist(generator);
         request.theta = 0.0;
         
-        std::string name = "turtle" + std::to_string(id);
+        std::string name = "turtle" + padzeros(id);
         request.name = name;
         
         turtle.name = name;
@@ -85,7 +94,11 @@ private:
         for (auto const& turtle : turtles)
         {
             msg.turtles.push_back(turtle.second);
+            RCLCPP_INFO(this->get_logger(),turtle.second.name.c_str());
         }
+
+        RCLCPP_INFO(this->get_logger(),"-----------------------------------------");
+
         live_turtles_publisher_->publish(msg);
     }
 
