@@ -5,6 +5,15 @@
 #include "my_robot_interfaces/msg/turtle_array.hpp"
 #include "my_robot_interfaces/srv/catched_turtle.hpp"
 
+
+float calculateDistance(float target_x, float target_y, float pose_x, float pose_y)
+        {
+            float vel_x = target_x - pose_x;
+            float vel_y = target_y - pose_y;
+            float distance = sqrt(vel_x * vel_x + vel_y * vel_y);
+            return distance;
+        }
+
 class TurtleController : public rclcpp::Node // MODIFY NAME
 {
 public:
@@ -29,9 +38,34 @@ private:
 
     void liveTurtlesCallback(const my_robot_interfaces::msg::TurtleArray::SharedPtr msg)
     {
+
+        if (!pose_)
+            {
+                return;
+            }
+        
+
         target_x = msg->turtles[0].x;
         target_y = msg->turtles[0].y;
         catched_turtle_name_ = msg->turtles[0].name;
+        float min_distance = 99999;
+
+        for (auto turtle : msg->turtles)
+        {
+            float distance = calculateDistance(pose_->x,pose_->y, turtle.x, turtle.y);
+            
+            if (distance < min_distance)
+            {
+                min_distance = distance;
+                target_x = turtle.x;
+                target_y = turtle.y;
+                catched_turtle_name_ = turtle.name;
+            }
+
+
+            
+            
+        }
 
     }
 
@@ -81,11 +115,11 @@ private:
 
         if (twist.angular.z > 3.14)
         {
-            twist.angular.z -=  5*3.14;
+            twist.angular.z -=  3*3.14;
         }
         else if (twist.angular.z < -3.14)
         {
-            twist.angular.z += 5*3.14;
+            twist.angular.z += 3*3.14;
         }
 
         
