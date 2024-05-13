@@ -19,6 +19,8 @@ class TurtleController : public rclcpp::Node // MODIFY NAME
 public:
     TurtleController() : Node("turtle_controller") // MODIFY NAME
     {
+        this->declare_parameter("is_by_distance", true);
+        is_by_distnace = this->get_parameter("is_by_distance").as_bool();
 
     turtle_hero_sub_ = this->create_subscription<turtlesim::msg::Pose>(
         "turtle1/pose", 10, std::bind(&TurtleController::poseCallback, this, std::placeholders::_1));
@@ -36,6 +38,25 @@ public:
 
 private:
 
+    rclcpp::TimerBase::SharedPtr timer_;
+    rclcpp::Subscription<turtlesim::msg::Pose>::SharedPtr turtle_hero_sub_;
+    rclcpp::Subscription<my_robot_interfaces::msg::TurtleArray>::SharedPtr live_turtles_sub_;
+    
+    bool is_by_distnace;
+    
+    float target_x = 5.5;
+    float target_y = 5.5;
+
+
+    my_robot_interfaces::msg::TurtleArray::SharedPtr live_turtles_;
+
+    rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr publisher_;
+    turtlesim::msg::Pose::SharedPtr pose_;
+    geometry_msgs::msg::Twist twist;
+
+    rclcpp::Client<my_robot_interfaces::srv::CatchedTurtle>::SharedPtr catched_turtle_client_;
+    std::string catched_turtle_name_ = "";
+
     void liveTurtlesCallback(const my_robot_interfaces::msg::TurtleArray::SharedPtr msg)
     {
 
@@ -49,6 +70,13 @@ private:
         target_y = msg->turtles[0].y;
         catched_turtle_name_ = msg->turtles[0].name;
         float min_distance = 99999;
+        
+        is_by_distnace = false;
+
+        if (!is_by_distnace)
+        {
+            return; 
+        }
 
         for (auto turtle : msg->turtles)
         {
@@ -130,22 +158,6 @@ private:
     
     }
 
-    rclcpp::TimerBase::SharedPtr timer_;
-    rclcpp::Subscription<turtlesim::msg::Pose>::SharedPtr turtle_hero_sub_;
-    rclcpp::Subscription<my_robot_interfaces::msg::TurtleArray>::SharedPtr live_turtles_sub_;
-
-    float target_x = 5.5;
-    float target_y = 5.5;
-
-
-    my_robot_interfaces::msg::TurtleArray::SharedPtr live_turtles_;
-
-    rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr publisher_;
-    turtlesim::msg::Pose::SharedPtr pose_;
-    geometry_msgs::msg::Twist twist;
-
-    rclcpp::Client<my_robot_interfaces::srv::CatchedTurtle>::SharedPtr catched_turtle_client_;
-    std::string catched_turtle_name_ = "";
 };
 
 int main(int argc, char **argv)

@@ -1,0 +1,10 @@
+[0.000000] (-) TimerEvent: {}
+[0.007686] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.009158] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.009286] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.009380] (-) JobUnselected: {'identifier': 'my_robot_starter'}
+[0.009438] (-) JobUnselected: {'identifier': 'turtlesim_catch_them_all'}
+[0.009532] (my_robot_bringup) JobQueued: {'identifier': 'my_robot_bringup', 'dependencies': OrderedDict([('my_py_pkg', '/home/barakooda/ros2_ws/install/my_py_pkg'), ('my_robot_interfaces', '/home/barakooda/ros2_ws/install/my_robot_interfaces'), ('my_cpp_pkg', '/home/barakooda/ros2_ws/install/my_cpp_pkg'), ('turtlesim_catch_them_all', '/home/barakooda/ros2_ws/install/turtlesim_catch_them_all')])}
+[0.009707] (my_robot_bringup) JobStarted: {'identifier': 'my_robot_bringup'}
+[0.015705] (my_robot_bringup) JobEnded: {'identifier': 'my_robot_bringup', 'rc': 1}
+[0.026760] (-) EventReactorShutdown: {}
